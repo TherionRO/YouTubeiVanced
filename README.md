@@ -29,7 +29,7 @@ Thanks to : Google,MiRO92,CokePokes,Galactic-Dev,level3tjg,therealFoxster,JamieB
 
 # How to use iVanced
 
-## How to login with my Google account?Is not working.
+### How to login with my Google account?Is not working.
 In newer versions of YouTube,google added a few security features to stop you from logging in on modded apps,including iVanced.Please follow the following steps to login using your google account :
 
 1.Open iVanced,press on login and tap and hold on the top bar where it says google login and copy the url.

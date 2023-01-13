@@ -6,22 +6,22 @@ Nothing now :P
 
 # Features
 
-## AdBlock
+### AdBlock
 Blocks all of the ads that are annoying.Videos ads blocked,home screen ads blocked,all ads blocked.
 
-## iSponsorBlock
+### iSponsorBlock
 Skips "all" sponsorships on "most" videos.Skips sponsorships,intros,subscribe reminders and more.You can also contribute to the SponsorBlock data base so you can help other users like you!
 
-## Return My Dislike!
+### Return My Dislike!
 Returns the dislike button on most videos,well...almost.
 
-## uYou Features | Download videos,customize the YouTube app
+### uYou Features | Download videos,customize the YouTube app
 Download all your favorite videos locally,also support for audio-only download.Also a lot of customization and new features.
 
-## Picture in picture and lockscreen playing
+### Picture in picture and lockscreen playing
 Picture in picture and lockscreen playing without YouTube Premium :O!
 
-## YT A/B Config
+### YT A/B Config
 Almost 2000 features and options to customize your youtube app and experience,good luck trying them all :).
 
 # Credits

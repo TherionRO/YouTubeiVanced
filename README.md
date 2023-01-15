@@ -6,6 +6,9 @@ Nothing now :P
 
 # Features
 
+1. s
+1. dwadwadwad
+
 iVanced main features are blocking all YouTube ads,returning the dislike button and old loved youtube features that have been removed,skipping youtubers sponsorship segments and intros,theming and tweaking the app to your liking!
 
 ### AdBlock

@@ -2,7 +2,13 @@
 iVanced for YouTube is a modded application for iPhone user with or without jailbreak.This is mainly for jailed users as we only provide .ipa files for you to sideload.iVanced will block all of the annoying ads on youtube,skip sponsorships,return the legendary dislike button,download youtube videos as MP4 or MP3(audio),customize the theme of the app and many more tweaks for free.
 
 # Download iVanced
-Nothing now :P
+
+Download the iVanced for YouTube [AppDB Here](https://appdb.to/app/cydia/1900001075)
+
+Or download it from Github on [Releases Tab Here](https://github.com/TherionRO/YouTubeiVanced/releases/tag/release18.01.6-1)
+
+Instructions on how to sideload the .ipa and install it on your iPhone are present down below at "How to use iVanced"
+
 
 # Features
 
@@ -37,9 +43,15 @@ Thanks to : Google,MiRO92,qnblackcat,CokePokes,Galactic-Dev,level3tjg,therealFox
 
 Note : iVanced for YouTube is a fork of uYou/uYouPlus based on the latest version of youtube,a rolling release with extended life support and likely more unstable.
 
-### How to download iVanced for YouTube
+### How to sideload iVanced for YouTube
 
-Nothing now :(
+### Method 1# AltStore
+
+1.Install the AltStore app on your iPhone,[Watch this tutorial on how to setup AltStore!](https://www.youtube.com/watch?v=oLPVY-yETMM)
+
+2.After watching the tutorial and everything is working alright,check the minute 6:00 of the video tutorial,but select the iVanced .ipa file and paste it into AltStore app.
+
+3.After that,you will see iVanced installing on your iPhone.Open it,and enjoy!
 
 ### How to login with my Google account?Is not working.
 In newer versions of YouTube,google added a few security features to stop you from logging in on modded apps,including iVanced.Please follow the following steps to login using your google account :

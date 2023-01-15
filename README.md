@@ -31,7 +31,7 @@ Picture in picture and lockscreen playing without YouTube Premium :O!
 Almost 2000 features and options to customize your youtube app and experience,good luck trying them all :).
 
 # Credits
-Thanks to : Google,MiRO92,CokePokes,Galactic-Dev,level3tjg,therealFoxster,JamieBerghmans,PoomSmart,HASHBANG Productions for creating such great apps and tweaks for the community.Please show your support to all of them.
+Thanks to : Google,MiRO92,qnblackcat,CokePokes,Galactic-Dev,level3tjg,therealFoxster,JamieBerghmans,PoomSmart,HASHBANG Productions for creating such great apps and tweaks for the community.Please show your support to all of them.
 
 # How to use iVanced
 

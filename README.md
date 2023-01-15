@@ -20,16 +20,15 @@ Returns the dislike button on most videos,well...almost.
 ### uYou Features | Download videos,customize the YouTube app
 Download all your favorite videos locally,also support for audio-only download.Also a lot of customization and new features.
 
+uYou is included in iVanced app,so you can use all the features provided by uYou.
+
+[Check out](https://miro92.com/repo/depictions/?p=com.miro.uyou) this wonderful cydia tweak by MiRO92!
+
 ### Picture in picture and lockscreen playing
 Picture in picture and lockscreen playing without YouTube Premium :O!
 
 ### YT A/B Config
 Almost 2000 features and options to customize your youtube app and experience,good luck trying them all :).
-
-### All uYou Features
-uYou is included in iVanced app,so you can use all the features provided by uYou.
-
-[Check out](https://miro92.com/repo/depictions/?p=com.miro.uyou) this wonderful cydia tweak by MiRO92!
 
 # Credits
 Thanks to : Google,MiRO92,CokePokes,Galactic-Dev,level3tjg,therealFoxster,JamieBerghmans,PoomSmart,HASHBANG Productions for creating such great apps and tweaks for the community.Please show your support to all of them.

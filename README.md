@@ -35,7 +35,7 @@ Thanks to : Google,MiRO92,qnblackcat,CokePokes,Galactic-Dev,level3tjg,therealFox
 
 # How to use iVanced
 
-Note : iVanced for YouTube is a fork of uYou/uYouPlus based on the latest version of youtube,a rolling release and likely more unstable.
+Note : iVanced for YouTube is a fork of uYou/uYouPlus based on the latest version of youtube,a rolling release with extended life support and likely more unstable.
 
 ### How to download iVanced for YouTube
 

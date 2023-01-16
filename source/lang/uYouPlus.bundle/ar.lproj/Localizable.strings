@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "إصدار uYouPlus: %@";
+"VERSION_CHECK" = "المس هنا للبحث عن التحديثات!";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "خيارات مشغِّل الفيديو";
+
+"AUTO_FULLSCREEN" = "كامل الشاشة تلقائياً (أداة YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "تشغيل الفيديوهات تلقائياً بكامل الشاشة.";
+
+"SNAP_TO_CHAPTER" = "منع الارتباط بالفصول";
+"SNAP_TO_CHAPTER_DESC" = "تعطيل الربط التلقائي لبداية الفصول عند تحريك المؤشر في شريط التقدم. تتطلب إعادة تشغيل التطبيق.";
+
+"PINCH_TO_ZOOM" = "منع القَرص لتكبير الفيديو";
+"PINCH_TO_ZOOM_DESC" = "منع القرص بإصبعين للتكبير. تتطلب إعادة تشغيل التطبيق.";
+
+"YT_MINIPLAYER" = "السماح بالمشغل المصغّر لكل فيديوهات يوتيوب";
+"YT_MINIPLAYER_DESC" = "عند تصغير فيديوهات الأطفال مثلاً (قبل إغلاق المقطع).";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "أزرار التحكم على الطبقة فوق الفيديو";
+
+"HIDE_AUTOPLAY_SWITCH" = "إخفاء زر التشغيل التلقائي";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "إخفاء زر التشغيل التلقائي من أزرار التحكم على الفيديو.";
+
+"HIDE_SUBTITLES_BUTTON" = "إخفاء زر الترجمة";
+"HIDE_SUBTITLES_BUTTON_DESC" = "إخفاء زر الترجمة من أزرار التحكم على الفيديو.";
+
+"HIDE_HUD_MESSAGES" = "إخفاء رسائل المعلومات";
+"HIDE_HUD_MESSAGES_DESC" = "مثلاً: تم إيقاف الترجمة...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "إخفاء شريط الترويج المدفوع";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "إخفاء عبارة يتضمن ترويجاً مدفوعاً الظاهرة على بعض الفيديوهات.";
+
+"HIDE_CHANNEL_WATERMARK" = "إخفاء العلامة المائية للقنوات";
+"HIDE_CHANNEL_WATERMARK_DESC" = "إخفاء العلامة المائية للقنوات من على الطبقة فوق الفيديو. تتطلب إعادة تشغيل التطبيق.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "إخفاء زرّي السابق والتالي";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "إخفاء زرّي المقطع السابق والمقطع التالي من أزرار التحكم على الفيديو.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "تقدم وتراجع بدلاً من السابق والتالي";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "استبدال زرّي المقطع السابق والمقطع التالي بزرّي تقدم وتراجع. يتطلب إعادة تشغيل التطبيق.";
+
+"HIDE_HOVER_CARD" = "إخفاء صور المقاطع الأخرى في نهاية المقاطع (أداة YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "إخفاء الصور المصغرة الظاهرة على مشغل الفيديو في نهاية المقطع.";
+
+"HIDE_RIGHT_PANEL" = "إخفاء القائمة اليمنى التي تظهر في وضع ملء الشاشة";
+"HIDE_RIGHT_PANEL_DESC" = "تتطلب إعادة تشغيل التطبيق.";
+
+"RED_PROGRESS_BAR" = "شريط تقدّم أحمر";
+"RED_PROGRESS_BAR_DESC" = "إعادة اللون الأحمر لشريط التقدم. تتطلب إعادة تشغيل التطبيق.";
+
+"DONT_EAT_MY_CONTENT" = "منع النوتش/الجزيرة التفاعلية على مقاطع 2:1 (أداة DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "منع النوتش/الجزيرة التفاعلية من قص المقاطع التي تكون نسبة العرض إلى الارتفاع فيها تساوي 2:1. يتطلب إعادة تشغيل التطبيق.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "خيارات طبقة التحكم بمقاطع Shorts";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "إخفاء الصورة الرمزية لقناة المقطع القصير";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "إخفاء الصورة الرمزية لقنوات مقاطع Shorts.";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "إخفاء زر عدم الإعجاب في المقاطع القصيرة";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "إخفاء زر عدم الإعجاب لمقاطع Shorts.";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "إخفاء زر التعليقات في المقاطع القصيرة";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "إخفاء زر التعليقات لمقاطع Shorts.";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "إخفاء زر المزج في المقاطع القصيرة";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "إخفاء زر remix لمقاطع Shorts.";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "إخفاء زر المشاركة للمقاطع القصيرة";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "إخفاء زر المشاركة لمقاطع Shorts.";
+
+"HIDE_SUPER_THANKS" = "إخفاء عبارة 'شراء سوبر شكراً' في المقاطع القصيرة";
+"HIDE_SUPER_THANKS_DESC" = "إخفاء لافتة 'Buy Super Thanks' من مقاطع Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "منع استئناف المشاهدة في المقاطع القصيرة";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "إذا أغلقت تطبيق يوتيوب أثناء مشاهدة مقطع Shorts, لن يتم استئناف الشماهدة في المرة القادمة التي تفتح فيها التطبيق.";
+
+// Theme
+"THEME_OPTIONS" = "خيارات سِمة التطبيق";
+
+"OLED_DARK_THEME" = "وضع داكن OLED (ميزة تجريبية)";
+"OLED_DARK_THEME_2" = "وضع داكن OLED";
+"OLED_DARK_THEME_DESC" = "قد لا تعمل في كل الحالات. يجب إعادة تشغيل التطبيق عند تشغيل أو إيقاف هذه الخاصية.";
+
+"OLD_DARK_THEME" = "الوضع المظلم القديم";
+"OLD_DARK_THEME_DESC" = "الوضع المظلم القديم ليوتيوب (ألوان رمادية). تتطلب إعادة تشغيل التطبيق.";
+
+"DEFAULT_THEME" = "تلقائي";
+"DEFAULT_THEME_DESC" = "الوضع المظلم التلقائي ليوتيوب. تتطلب إعادة تشغيل التطبيق.";
+
+"OLED_KEYBOARD" = "لوحة مفاتيح داكنة OLED (ميزة تجريبية)";
+"OLED_KEYBOARD_DESC" = "قد لا تعمل بشكل صحيح في بعض الحالات. تتطلب إعادة تشغيل التطبيق.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "خيارات متنوعة";
+
+"CAST_CONFIRM" = "التأكيد قبل البث (أداة YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "إظهار تنبيه للتأكيد قبل البث، من أجل منع البث للتلفاز عن طريق الخطأ.";
+"CASTING" = "البث";
+"MSG_ARE_YOU_SURE" = "هل أنت متأكد أنك تريد بدء البث؟";
+"MSG_YES" = "نعم";
+"MSG_CANCEL" = "إلغاء";
+
+"DISABLE_HINTS" = "منع التلميحات";
+"DISABLE_HINTS_DESC" = "منع تلميحات مزايا التطبيق، والتي تظهر عادة عند تثبيت التطبيق حديثاً.";
+
+"FIX_GOOGLE_SIGNIN" = "إصلاح تسجيل الدخول بحساب جوجل (لمستخدمي TrollStore فقط)";
+"FIX_GOOGLE_SIGNIN_DESC" = "هذا الخيار لا يعمل إلا إذا كان التطبيق مثبت بواسطة TrollStore: فعل هذا الخيار لتتمكن من تسجيل الدخول بحساب جوجل. يتطلب إعادة تشغيل التطبيق.";
+
+"HIDE_CHIP_BAR" = "Hide the Upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+
+"NEW_MINIPLAYER_STYLE" = "تغيير شكل المشغّل المصغر (أداة BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "تغيير شكل المشغّل المصغر في الآيفون إلى نفس شكله في الآيباد - تتطلب إغلاق التطبيق وإعادة فتحه.";
+
+"YT_RE_EXPLORE" = "استبدال تبويب Shorts بتبويب Explore (أداة YTReExplore)";
+"YT_RE_EXPLORE_DESC" = " تتطلب إغلاق التطبيق وإعادة فتحه.";

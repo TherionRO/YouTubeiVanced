@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "Version de uYouPlus : %@";
+"VERSION_CHECK" = "Appuyez pour vérifier les mises à jour !";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Options du lecteur vidéo";
+
+"AUTO_FULLSCREEN" = "Plein écran automatique (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Lecture automatique des vidéos en plein écran";
+
+"SNAP_TO_CHAPTER" = "Désactiver l'alignement sur les chapitres";
+"SNAP_TO_CHAPTER_DESC" = "Désactiver l'alignement automatique sur les chapitres lors de la recherche dans les vidéos. Un redémarrage de l'application est nécessaire.";
+
+"PINCH_TO_ZOOM" = "Désactiver le zoom à deux doigts";
+"PINCH_TO_ZOOM_DESC" = "Un redémarrage de l'application est nécessaire.";
+
+"YT_MINIPLAYER" = "Activer le mini-lecteur pour toutes les vidéos YouTube";
+"YT_MINIPLAYER_DESC" = "Vidéos pour enfants par exemple";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Options de superposition des contrôles vidéo";
+
+"HIDE_AUTOPLAY_SWITCH" = "Masquer l'interrupteur de lecture automatique";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Masquer le bouton de lecture automatique dans la superposition des contrôles vidéo";
+
+"HIDE_SUBTITLES_BUTTON" = "Bouton de masquage des sous-titres";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Masquer le bouton des sous-titres dans la superposition des contrôles vidéo";
+
+"HIDE_HUD_MESSAGES" = "Masquer les messages de l'ATH";
+"HIDE_HUD_MESSAGES_DESC" = "Exemple : Les sous-titres sont activés/désactivés, la boucle vidéo est activée,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Masquer la bannière des communications commerciales";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Masque la bannière 'Inclut une communication commerciale' dans certaines vidéos.";
+
+"HIDE_CHANNEL_WATERMARK" = "Masquer le filigrane du canal";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Masquer le filigrane du canal dans la superposition de commandes de la vidéo. Un redémarrage de l'application est nécessaire.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Masquer les boutons Précédent et Suivant";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Masquer les boutons Précédent et Suivant dans la superposition des contrôles vidéo";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Remplacer le bouton précédent et suivant";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Remplace les boutons Précédent et Suivant par les boutons Avance rapide et Retour rapide. Un redémarrage de l'application est nécessaire";
+
+"HIDE_HOVER_CARD" = "Masquer les cartes de survol des écrans de fin (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Masquer les écrans de fin (vignettes) des créateurs à la fin des vidéos";
+
+"HIDE_RIGHT_PANEL" = "Masquer le panneau de droite en mode plein écran";
+"HIDE_RIGHT_PANEL_DESC" = "Un redémarrage de l'application est nécessaire.";
+
+"RED_PROGRESS_BAR" = "Barre de progression rouge";
+"RED_PROGRESS_BAR_DESC" = "Rétablir la barre de progression rouge. Un redémarrage de l'application est nécessaire.";
+
+"DONT_EAT_MY_CONTENT" = "Empêcher l'encoche/Dynamic Island de grignoter le contenu vidéo 2:1 (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "Empêche l'encoche/Dynamic Island de grignoter du contenu vidéo 2:1 dans YouTube. Un redémarrage de l'application est nécessaire.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Options de la superposition de commandes de Shorts";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Masquer l'avatar de la chaîne de Shorts";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Masquer le bouton de dislikes de Shorts";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Masquer le bouton de commentaires de Shorts";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Masquer le bouton de remix de Shorts";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Masquer le bouton de partage de Shorts";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Masquer la bannière 'Acheter des Super Thanks'";
+"HIDE_SUPER_THANKS_DESC" = "Masquer la bannière 'Acheter des Super Thanks' dans les Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Désactiver la reprise des Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "Si vous fermez YouTube en regardant des Shorts, ils ne seront pas automatiquement lus la prochaine fois que vous lancerez YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Options du thème";
+
+"OLED_DARK_THEME" = "Mode sombre OLED (Expérimental)";
+"OLED_DARK_THEME_2" = "Mode sombre OLED";
+"OLED_DARK_THEME_DESC" = "Peut ne pas fonctionner correctement dans certains cas. Un redémarrage de l'application est nécessaire après avoir activé/désactivé cette option.";
+
+"OLD_DARK_THEME" = "Ancien thème sombre";
+"OLD_DARK_THEME_DESC" = "Ancien thème sombre de YouTube (thème gris). Un redémarrage de l'application est nécessaire.";
+
+"DEFAULT_THEME" = "Défaut";
+"DEFAULT_THEME_DESC" = "Thème plus sombre par défaut de YouTube. Un redémarrage de l'application est nécessaire.";
+
+"OLED_KEYBOARD" = "Clavier OLED (Expérimental)";
+"OLED_KEYBOARD_DESC" = "Peut ne pas fonctionner correctement dans certains cas. Un redémarrage de l'application est nécessaire.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Divers";
+
+"CAST_CONFIRM" = "Confirmer l'alerte avant le casting (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Afficher une alerte de confirmation avant de lancer le casting afin d'éviter de déclencher accidentellement la télévision";
+"CASTING" = "Cast";
+"MSG_ARE_YOU_SURE" = "Êtes-vous sûr de vouloir commencer un cast sur votre télévision ?";
+"MSG_YES" = "Oui";
+"MSG_CANCEL" = "Annuler";
+
+"DISABLE_HINTS" = "Désactiver les astuces";
+"DISABLE_HINTS_DESC" = "Désactiver les astuces de fonctionnalités de YouTube qui s'affichent habituellement lorsque l'application est fraîchement installée.";
+
+"FIX_GOOGLE_SIGNIN" = "Réparer l'identification Google (pour les utilisateurs de TrollStore uniquement)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Activez cette option uniquement si vous ne pouvez pas vous connecter avec votre compte Google et que l'application a été installée via TrollStore. Si vous pouvez vous connecter normalement, laissez-la désactivée. Un redémarrage de l'application est nécessaire.";
+
+"HIDE_CHIP_BAR" = "Masquer la barre supérieure";
+"HIDE_CHIP_BAR_DESC" = "Masquer la barre supérieure dans les fils d'actualité (Tendances, Musique, Gaming...) et les fils d'abonnement (Toutes les vidéos, Poursuivre la lecture...). Un redémarrage de l'application est nécessaire.";
+
+"NEW_MINIPLAYER_STYLE" = "Nouveau style de barre de mini-lecteur (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Un redémarrage de l'application est nécessaire";
+
+"YT_RE_EXPLORE" = "Remplacer l'onglet Shorts par l'onglet Explorer (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "Un redémarrage de l'application est nécessaire";

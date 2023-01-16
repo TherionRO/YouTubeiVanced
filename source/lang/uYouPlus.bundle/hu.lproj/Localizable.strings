@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "uYouPlus's version: %@";
+"VERSION_CHECK" = "Tap to check for update!";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+
+"AUTO_FULLSCREEN" = "Automatikus teljes képernyő (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Videók automatikus lejátszása teljes képernyőn.";
+
+"SNAP_TO_CHAPTER" = "Disable snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking in videos. App restart is required.";
+
+"PINCH_TO_ZOOM" = "Disable pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+
+"YT_MINIPLAYER" = "Engedélyezze a Minilejátszót az összes YouTube-videóhoz";
+"YT_MINIPLAYER_DESC" = "Például gyermekvideók.";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+
+"HIDE_AUTOPLAY_SWITCH" = "Az automatikus lejátszás kapcsoló elrejtése";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Az Automatikus lejátszás kapcsoló elrejtése a videovezérlők fedvényében.";
+
+"HIDE_SUBTITLES_BUTTON" = "Feliratok elrejtése";
+"HIDE_SUBTITLES_BUTTON_DESC" = "A Feliratok gomb elrejtése a videóvezérlők fedvényében.";
+
+"HIDE_HUD_MESSAGES" = "HUD üzenetek elrejtése";
+"HIDE_HUD_MESSAGES_DESC" = "Példa: A CC be/ki van kapcsolva, a videó hurok be van kapcsolva,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Fizetett promóciós szalaghirdetés elrejtése";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "A „Fizetett promóciókat tartalmaz” szalaghirdetés elrejtése egyes videóknál.";
+
+"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Előző és Következő gomb elrejtése";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Az Előző és a Következő gomb elrejtése a videóvezérlők fedvényén.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Előző és Következő gomb cseréje";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Cserélje ki az Előző és Következő gombot Gyors előre és visszatekerés gombbal. Az alkalmazás újraindítása szükséges.";
+
+"HIDE_HOVER_CARD" = "A záróképernyők lebegő kártyáinak elrejtése (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Az alkotói záróképernyők (bélyegképek) elrejtése a videók végén.";
+
+"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
+"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+
+"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+
+"DONT_EAT_MY_CONTENT" = "Notch/Island megelőzése 2:1 arányú videótartalomnál (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "Akadályozza meg, hogy a Notch/Dynamic Island 2:1 arányú videótartalmat csámcsogjon a YouTube-on. Az alkalmazás újraindítása szükséges.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
+"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Theme Options";
+
+"OLED_DARK_THEME" = "OLED sötét mód (Kísérleti)";
+"OLED_DARK_THEME_2" = "OLED sötét mód";
+"OLED_DARK_THEME_DESC" = "Előfordulhat, hogy bizonyos esetekben nem működik megfelelően. Az alkalmazás újraindítása szükséges az opció engedélyezése/letiltása után.";
+
+"OLD_DARK_THEME" = "Old dark theme";
+"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+
+"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+
+"OLED_KEYBOARD" = "OLED Billentyűzet (Kísérleti)";
+"OLED_KEYBOARD_DESC" = "Előfordulhat, hogy bizonyos esetekben nem működik megfelelően. Az alkalmazás újraindítása szükséges az opció engedélyezése/letiltása után.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Miscellaneous";
+
+"CAST_CONFIRM" = "Megerősítés átküldés előtt (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Az átküldés előtt mutasson megerősítő figyelmeztetést, hogy megakadályozza a TV véletlen eltérítését.";
+"CASTING" = "Casting";
+"MSG_ARE_YOU_SURE" = "Biztos, hogy elkezdi az átküldést?";
+"MSG_YES" = "Igen";
+"MSG_CANCEL" = "Visszavon";
+
+"DISABLE_HINTS" = "Disable hints";
+"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+
+"FIX_GOOGLE_SIGNIN" = "A Google bejelentkezés javítása (csak a TrollStore-felhasználók számára)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Csak akkor kapcsolja be ezt az opciót, ha nem tud bejelentkezni Google-fiókjával, és az alkalmazást a TrollStore-on keresztül telepítették. Ha normálisan be tud jelentkezni, tartsa letiltva. Az alkalmazás újraindítása szükséges.";
+
+"HIDE_CHIP_BAR" = "Hide the Upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+
+"NEW_MINIPLAYER_STYLE" = "Új minilejátszó sáv (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Az alkalmazás újraindítása szükséges.";
+
+"YT_RE_EXPLORE" = "Cserélje le a Shorts fület a Felfedezés fülre (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "Az alkalmazás újraindítása szükséges.";

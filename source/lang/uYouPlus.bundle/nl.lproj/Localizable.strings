@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "uYouPlus's version: %@";
+"VERSION_CHECK" = "Tap to check for update!";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+
+"AUTO_FULLSCREEN" = "Auto Volledig Scherm (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Automatisch volledig scherm wanneer je een video aan klikt.";
+
+"SNAP_TO_CHAPTER" = "Disable snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking in videos. App restart is required.";
+
+"PINCH_TO_ZOOM" = "Disable pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+
+"YT_MINIPLAYER" = "Schakel de Mini Speler in voor alle video's";
+"YT_MINIPLAYER_DESC" = "Video's voor kinderen bijvoorbeeld.";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+
+"HIDE_AUTOPLAY_SWITCH" = "Verberg Autoplay schakelaar";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Verberg de Autoplay schakelaar in de video speler.";
+
+"HIDE_SUBTITLES_BUTTON" = "Verberg ondertitels knop";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Verberg de ondertitels knop in de video speler.";
+
+"HIDE_HUD_MESSAGES" = "Verberg HUD Berichten";
+"HIDE_HUD_MESSAGES_DESC" = "Bijvoorbeeld: CC is ingeschakeld/uitgeschakeld, Video lus is ingeschakeld,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Verberg Betaalde Promoties";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Verberg de 'Bevat Betaalde Promotie' in sommige video's.";
+
+"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Verberg vorige en volgende knoppen";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Verberg de vorige en volgende knop in de video speler.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Vervang Volgende en Vorige knoppen";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Vervang de Vorige en Volgende knoppen met spoelknoppen.";
+
+"HIDE_HOVER_CARD" = "Verberg eind scherm hover cards (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Verberg eind schermen (thumbnails) aan het einde van video's.";
+
+"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
+"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+
+"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+
+"DONT_EAT_MY_CONTENT" = "Voorkom Notch/Eiland Bij 2:1 Video's (DontEatMyContent)";#
+"DONT_EAT_MY_CONTENT_DESC" = "Voorkomt dat de video zich achter de Notch/het Dynamische Eiland bevind bij 2:1 video's. Je moet de app opnieuw opstarten om dit te activeren.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
+"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Theme Options";
+
+"OLED_DARK_THEME" = "OLED Donkere Stand (Experimenteel)";
+"OLED_DARK_THEME_2" = "OLED Donkere Stand";
+"OLED_DARK_THEME_DESC" = "Werkt mogelijk niet correct in sommige gevallen. Je moet de app opnieuw opstarten om dit te activeren.";
+
+"OLD_DARK_THEME" = "Old dark theme";
+"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+
+"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+
+"OLED_KEYBOARD" = "OLED Toetsenbord (Experimenteel)";
+"OLED_KEYBOARD_DESC" = "Werkt mogelijk niet correct in sommige gevallen. Je moet de app opnieuw opstarten om dit te activeren.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Miscellaneous";
+
+"CAST_CONFIRM" = "Bevestig casten (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Toon een melding na het drukken op de cast knop om te voorkomen dat je per ongeluk cast.";
+"CASTING" = "Castings";
+"MSG_ARE_YOU_SURE" = "Weet je zeker dat je wilt casten?";
+"MSG_YES" = "Ja!";
+"MSG_CANCEL" = "Niet casten!";
+
+"DISABLE_HINTS" = "Disable hints";
+"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+
+"FIX_GOOGLE_SIGNIN" = "Fix Inloggen met Google (Alleen voor TrollStore gebruikers)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Zet dit aan wanneer je niet kan inloggen met je Google account en je de app hebt geïnstalleerd met Trollstore. Als je in kan loggen laat dit dan met rust. Om dit te activeren moet je de app opnieuw opstarten.";
+
+"HIDE_CHIP_BAR" = "Hide the Upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+
+"NEW_MINIPLAYER_STYLE" = "Nieuwe Mini Speler stijl (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Je moet de app opnieuw opstarten om dit te activeren.";
+
+"YT_RE_EXPLORE" = "Vervang Shorts met Ontdekken (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "Je moet de app opnieuw opstarten om dit te activeren.";

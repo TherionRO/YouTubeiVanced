@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "uYouPlus-Version: %@";
+"VERSION_CHECK" = "Tippen, um nach Updates zu suchen!";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+
+"AUTO_FULLSCREEN" = "Automatisches Vollbild (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Automatisch Videos im Vollbild starten.";
+
+"SNAP_TO_CHAPTER" = "Disable snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking in videos. App restart is required.";
+
+"PINCH_TO_ZOOM" = "Disable pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+
+"YT_MINIPLAYER" = "Miniplayer für alle YouTube-Videos aktivieren";
+"YT_MINIPLAYER_DESC" = "z.B. bei Videos für Kinder.";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+
+"HIDE_AUTOPLAY_SWITCH" = "Autoplay-Schalter ausblenden";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Autoplay-Schalter vom Videoplayer ausblenden.";
+
+"HIDE_SUBTITLES_BUTTON" = "Untertitel-Button ausblenden";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Untertitel-Button vom Videoplayer ausblenden.";
+
+"HIDE_HUD_MESSAGES" = "HUD-Nachrichten ausblenden";
+"HIDE_HUD_MESSAGES_DESC" = "z.B.: Untertitel sind aktiviert/deaktiviert, Videoschleife ist an, ...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Enthält bezahlte Werbung Info ausblenden";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Enthält bezahlte Werbung Infobanner bei manchen Videos ausblenden.";
+
+"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Vor- und Zurücktasten ausblenden";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Vor- und Zurücktasten vom Videoplayer ausblenden.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Vor- und Zurücktasten ersetzen";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Tasten zum Vor- und Zurückspringen zwischen Videos durch Vor- und Zurückspultasten ersetzen. App-Neustart erforderlich!";
+
+"HIDE_HOVER_CARD" = "Endkarten ausblenden (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Creator-Endkarten (Thumbnails) am Ende des Videos ausblenden.";
+
+"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
+"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+
+"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+
+"DONT_EAT_MY_CONTENT" = "Kerbe/dynamische Insel bei 2:1-Videoinhalten berücksichtigen (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "Verhindert, dass die Notch/Dynamic Island 2:1-Videoinhalte überdeckt. App-Neustart erforderlich!";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
+"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in some certain Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Theme Options";
+
+"OLED_DARK_THEME" = "OLED-Dunkelmodus (Experimental)";
+"OLED_DARK_THEME_2" = "OLED-Dunkelmodus";
+"OLED_DARK_THEME_DESC" = "True dark theme. Might not work correctly in some cases. App restart is required after you enable/disable this option.";
+
+"OLD_DARK_THEME" = "Old dark theme";
+"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+
+"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+
+"OLED_KEYBOARD" = "OLED-Tastatur (Experimental)";
+"OLED_KEYBOARD_DESC" = "Könnte in manchen Fällen nicht richtig funktionieren. App-Neustart erforderlich!";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Miscellaneous";
+
+"CAST_CONFIRM" = "Warnung vor TV-Übertragungen (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Zeigt eine Warnung an, um eine ausversehene TV-Übertragung zu verhindern.";
+"CASTING" = "TV-Übertragung";
+"MSG_ARE_YOU_SURE" = "Sind Sie sicher, dass Sie mit der Videoübertragung beginnen wollen?";
+"MSG_YES" = "Ja";
+"MSG_CANCEL" = "Abbrechen";
+
+"DISABLE_HINTS" = "Disable hints";
+"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+
+"FIX_GOOGLE_SIGNIN" = "Google-Anmeldung reparieren (nur für TrollStore-Benutzer!)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Aktiviere diese Option nur, wenn Sie sich nicht mit Ihrem Google-Account anmelden können und die App über TrollStore installiert wurde. Wenn Sie sich normal anmelden können, halte diese Option deaktiviert! App-Neustart erforderlich!";
+
+"HIDE_CHIP_BAR" = "Hide the Upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+
+"NEW_MINIPLAYER_STYLE" = "Neuer Miniplayer Style (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "App-Neustart erforderlich!";
+
+"YT_RE_EXPLORE" = "Shorts-Tab durch Entdecken-Tab ersetzen (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "App-Neustart erforderlich!";

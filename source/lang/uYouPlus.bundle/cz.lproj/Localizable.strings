@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "uYouPlus's version: %@";
+"VERSION_CHECK" = "Tap to check for update!";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+
+"AUTO_FULLSCREEN" = "Přes celou obrazovku (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Automaticky spouští videa přes celou obrazovku.";
+
+"SNAP_TO_CHAPTER" = "Disable snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking in videos. App restart is required.";
+
+"PINCH_TO_ZOOM" = "Disable pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+
+"YT_MINIPLAYER" = "Povolit Minipřehrávač pro všechna videa";
+"YT_MINIPLAYER_DESC" = "Například u videa pro děti";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+
+"HIDE_AUTOPLAY_SWITCH" = "Skrýt přepínač automatického přehrávání";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Skryje přepínač automatického přehrávání v překrytí ovládání videa.";
+
+"HIDE_SUBTITLES_BUTTON" = "Skrýt tlačítko titulky";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Skryje tlačítko titulky v překrytí ovládání videa.";
+
+"HIDE_HUD_MESSAGES" = "Skrýt vyskakující zprávy";
+"HIDE_HUD_MESSAGES_DESC" = "Příklad: Titulky zapnuty/vypnuty, Smyčka videa zapnuta,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Hide Paid Promotion banner";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Hide the 'Includes Paid Promotions' banner in some videos.";
+
+"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Skrýt tlačítka předchozí a následující";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Skryje tlačítka předchozí a následující v překrytí ovládání videa.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Nahradit předchozí a další tlačítko";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Nahradit předchozí a následující tlačítko tlačítkem Přetočit vpřed a vzad. Je vyžadován restart aplikace.";
+
+"HIDE_HOVER_CARD" = "Skrýt karty na konci videa (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Skryje náhledy jiných videjí na konci videa.";
+
+"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
+"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+
+"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+
+"DONT_EAT_MY_CONTENT" = "Zabránit zářezu/ostrovu na videoobsahu 2:1 (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "Zabraňte tomu, aby zářez/Dynamic Island žvýkal video obsah 2:1 na YouTube. Je vyžadován restart aplikace.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
+"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Theme Options";
+
+"OLED_DARK_THEME" = "Tmavý OLED režim (Experimentální)";
+"OLED_DARK_THEME_2" = "Tmavý OLED režim (Experimentální)";
+"OLED_DARK_THEME_DESC" = "Mohou se vyskytnout chyby. Je potřeba restart aplikace.";
+
+"OLD_DARK_THEME" = "Old dark theme";
+"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+
+"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+
+"OLED_KEYBOARD" = "OLED Klávesnice (Experimentální)";
+"OLED_KEYBOARD_DESC" = "Mohou se vyskytnout chyby. Je potřeba restart aplikace.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Miscellaneous";
+
+"CAST_CONFIRM" = "Zobrazit potvrzení před začátkem sdílení obrazu (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Zobrazí potvrzení aby se zamezilo nechtěnému sdílení do televize.";
+"CASTING" = "Sdílení obrazu";
+"MSG_ARE_YOU_SURE" = "Opravdu chcete začít sdílet obraz?";
+"MSG_YES" = "Ano";
+"MSG_CANCEL" = "Zrušit";
+
+"DISABLE_HINTS" = "Disable hints";
+"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+
+"FIX_GOOGLE_SIGNIN" = "Opravit přihlášení přes Google (pouze pro uživatele TrollStore)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Tuto možnost zapněte pouze v případě, že se nemůžete přihlásit pomocí svého účtu Google a aplikace byla nainstalována prostřednictvím TrollStore. Pokud se můžete normálně přihlásit, ponechte ji deaktivovanou. Je vyžadován restart aplikace.";
+
+"HIDE_CHIP_BAR" = "Hide the Upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+
+"NEW_MINIPLAYER_STYLE" = "Nový styl minipřehrávače (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Je potřeba restart aplikace.";
+
+"YT_RE_EXPLORE" = "Nahradit záložku Shorts tab záložkou Explore (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "Je potřeba restart aplikace.";

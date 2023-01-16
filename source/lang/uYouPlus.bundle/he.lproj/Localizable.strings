@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "uYouPlus's version: %@";
+"VERSION_CHECK" = "Tap to check for update!";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+
+"AUTO_FULLSCREEN" = "מסך מלא אוטומטי (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "נגן סרטונים במסך מלא אוטומטית.";
+
+"SNAP_TO_CHAPTER" = "Disable snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking in videos. App restart is required.";
+
+"PINCH_TO_ZOOM" = "Disable pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+
+"YT_MINIPLAYER" = "אפשר את הנגן הקטן עבור כל הסרטונים ב-YouTube";
+"YT_MINIPLAYER_DESC" = "סרטוני ילדים לדוגמה.";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+
+"HIDE_AUTOPLAY_SWITCH" = "הסתר את כפתור ההפעלה האוטומטית";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "הסתר את כפתור ההפעלה האוטומטית בתצוגת השליטה בסרטון.";
+
+"HIDE_SUBTITLES_BUTTON" = "הסתר את כפתור הכתוביות";
+"HIDE_SUBTITLES_BUTTON_DESC" = "הסתר את כפתור הכתוביות בתצוגת השליטה בסרטון.";
+
+"HIDE_HUD_MESSAGES" = "הסתר הודעות קופצות";
+"HIDE_HUD_MESSAGES_DESC" = "לדוגמה: כתוביות מופעלות/מושבתות, הופעל סרטון בלופ,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Hide Paid Promotion banner";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Hide the 'Includes Paid Promotions' banner in some videos.";
+
+"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "הסתר את הקודם והבא";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "הסתר את כפתורי הקודם והבא בתצוגת השליטה בסרטון.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "החלף את הלחצן הקודם והבא";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "החלף את הלחצן הקודם והבא בלחצן הרצה קדימה והאחורה. נדרשת הפעלה מחדש של האפליקציה.";
+
+"HIDE_HOVER_CARD" = "הסתר כרטיסיות סיום סרטון (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "הסתר את מסכי הסיום של סרטונים המציגים את הערוץ וסרטונים נוספים.";
+
+"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
+"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+
+"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+
+"DONT_EAT_MY_CONTENT" = "מנע חריץ/אי בתוכן וידאו 2:1 (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "מנע מהחריץ/האי הדינמי ללעוס תוכן וידאו 2:1 ב-YouTube. נדרשת הפעלה מחדש של האפליקציה.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
+"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Theme Options";
+
+"OLED_DARK_THEME" = "תצוגה כהה OLED (נסיוני)";
+"OLED_DARK_THEME_2" = "תצוגה כהה OLED";
+"OLED_DARK_THEME_DESC" = "עלול לא לעבוד נכון בחלק מהמקרים, נדרש לפתוח מחדש את היישום.";
+
+"OLD_DARK_THEME" = "Old dark theme";
+"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+
+"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+
+"OLED_KEYBOARD" = "מקלדת כהה OLED (נסיוני)";
+"OLED_DARKMODE_DESC" = "עלול לא לעבוד נכון בחלק מהמקרים, נדרש לפתוח מחדש את היישום.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Miscellaneous";
+
+"CAST_CONFIRM" = "התראת אישור לפני שידור לטלוויזיה (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "הצג התראת אישור לפני שידור לטלוויזיה כדי למנוע לחיצה בטעות.";
+"CASTING" = "משדר";
+"MSG_ARE_YOU_SURE" = "האם להתחיל לשדר?";
+"MSG_YES" = "כן";
+"MSG_CANCEL" = "ביטול";
+
+"DISABLE_HINTS" = "Disable hints";
+"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+
+"FIX_GOOGLE_SIGNIN" = "תקן כניסה של Google (עבור משתמש TrollStore בלבד)";
+"FIX_GOOGLE_SIGNIN_DESC" = "הפעל אפשרות זו רק כאשר אינך יכול להיכנס עם חשבון Google שלך והאפליקציה הותקנה דרך TrollStore. אם אתה יכול להתחבר כרגיל, השאר אותה מושבתת. נדרשת הפעלה מחדש של האפליקציה.";
+
+"HIDE_CHIP_BAR" = "Hide the Upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+
+"NEW_MINIPLAYER_STYLE" = "עיצוב נגן קטן חדש (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "נדרש לפתוח מחדש את היישום.";
+
+"YT_RE_EXPLORE" = "החלף את לשונית ה-Shorts בלשונית Explore (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "נדרש לפתוח מחדש את היישום.";

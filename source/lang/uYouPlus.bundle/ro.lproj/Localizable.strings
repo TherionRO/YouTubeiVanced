@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "Versiune uYouPlus: %@";
+"VERSION_CHECK" = "Căutare actualizări";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+
+"AUTO_FULLSCREEN" = "Auto Ecran Întreg (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Redare automată video pe ecran complet.";
+
+"SNAP_TO_CHAPTER" = "Disable snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking videos. App restart is required.";
+
+"PINCH_TO_ZOOM" = "Disable pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+
+"YT_MINIPLAYER" = "Activare Miniplayer pentru toate videoclipurile YouTube";
+"YT_MINIPLAYER_DESC" = "De exemplu, videoclipurile destinate pentri copii";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+
+"HIDE_AUTOPLAY_SWITCH" = "Ascunde comutatorul Redare automată";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Ascunde comutatorul Redare automată din controalele video.";
+
+"HIDE_SUBTITLES_BUTTON" = "Ascunde butonul Subtitrări";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Ascunde butonul Subtitrări din controalele video.";
+
+"HIDE_HUD_MESSAGES" = "Ascundere Mesaje HUD";
+"HIDE_HUD_MESSAGES_DESC" = "Exemplu: Subtitrările sunt activate/dezactivate, Redarea în buclă este activată,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Ascunde banner-ul Promovare Plătită";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Ascunde banner-ul 'Include Promovare Plătită' în unele videoclipuri.";
+
+"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Ascunde butoanele Înainte/Înapoi";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Ascunde butoanele Înainte/Înapoi din controalele video.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Înlocuire butoane Înainte/Înapoi";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Înlocuiește butoanele Înainte/Înapoi cu butoanele derulare Înainte/Înapoi. Este necesară repornirea aplicației.";
+
+"HIDE_HOVER_CARD" = "Ascunde ecranele de final (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Ascunde ecranele de final de la sfârșitul videoclipurilor.";
+
+"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
+"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+
+"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+
+"DONT_EAT_MY_CONTENT" = "Previne apariția Notch/Island pe content video 2:1 (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "Previne tăierea conținutului video 2:1 de către Notch/Dynamic Island . Este necesară repornirea aplicației.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
+"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Theme Options";
+
+"OLED_DARK_THEME" = "Mod Întunecat OLED (Experimental)";
+"OLED_DARK_THEME_2" = "Mod Întunecat OLED";
+"OLED_DARK_THEME_DESC" = "Este posibil să nu funcționeze corect în anumite cazuri. Este necesară repornirea aplicației după ce această opțiune este activată/dezactivată.";
+
+"OLD_DARK_THEME" = "Old dark theme";
+"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+
+"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+
+"OLED_KEYBOARD" = "Tastatură OLED (Experimental)";
+"OLED_KEYBOARD_DESC" = "Este posibil să nu funcționeze corect în anumite cazuri. Este necesară repornirea aplicației.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Miscellaneous";
+
+"CAST_CONFIRM" = "Alertă de confirmare înainte de proiectare (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Afișează o alertă de confirmare înainte de a proiecta, pentru a preveni deturnarea accidentală a TV-ului.";
+"CASTING" = "Proiectare";
+"MSG_ARE_YOU_SURE" = "Sunteți sigur că doriți să proiectați?";
+"MSG_YES" = "Da";
+"MSG_CANCEL" = "Anulare";
+
+"DISABLE_HINTS" = "Disable hints";
+"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+
+"FIX_GOOGLE_SIGNIN" = "Rezolvare problemă autentificare cont Google (doar pentru utilizatorii TrollStore)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Activează această opțiune doar în cazul în care nu te poți autentifica în contul tău Google și apariția a fost instalată via TrollStore. Dacă te poți autentifica fără probleme, țineți setarea dezactivată. Este necesară repornirea aplicației.";
+
+"HIDE_CHIP_BAR" = "Hide the Upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+
+"NEW_MINIPLAYER_STYLE" = "Stil nou bară Miniplayer (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Este necesară repornirea aplicației.";
+
+"YT_RE_EXPLORE" = "Înlocuire fila Shorts cu fila Explore (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "Este necesară repornirea aplicației.";

@@ -1,0 +1,119 @@
+// Settings
+"VERSION" = "Phiên bản của uYouPlus: %@";
+"VERSION_CHECK" = "Chạm để kiểm tra bản cập nhật!";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Tùy chọn trình phát video";
+
+"AUTO_FULLSCREEN" = "Tự động toàn màn hình (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Tự động phát video ở chế độ toàn màn hình.";
+
+"SNAP_TO_CHAPTER" = "Vô hiệu hóa tự động chuyển tới chương";
+"SNAP_TO_CHAPTER_DESC" = "Tắt tính năng tự động chuyển tới chương gần nhất khi tua video. Cần khởi động lại ứng dụng.";
+
+"PINCH_TO_ZOOM" = "Vô hiệu hóa chạm để thu phóng";
+"PINCH_TO_ZOOM_DESC" = "Cần khởi động lại ứng dụng.";
+
+"YT_MINIPLAYER" = "Cho phép sử dụng trình phát thu nhỏ với mọi video";
+"YT_MINIPLAYER_DESC" = "Ví dụ: Video cho trẻ em.";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Tùy chọn hiển thị trong trình phát video";
+
+"HIDE_AUTOPLAY_SWITCH" = "Ẩn nút Tự động phát";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Ẩn nút Tự động phát trong trình phát video.";
+
+"HIDE_SUBTITLES_BUTTON" = "Ẩn nút bật Phụ đề";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Ẩn nút bật phụ đề trong trình phát video.";
+
+"HIDE_HUD_MESSAGES" = "Ẩn thông báo HUD";
+"HIDE_HUD_MESSAGES_DESC" = "Ví dụ: Đã bật/tắt phụ đề, Tính năng phát video lặp lại đang bật,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Ẩn banner quảng cáo được trả tiền";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Ẩn banner 'Chứa nội dung được trả tiền để quảng cáo' trong một số video.";
+
+"HIDE_CHANNEL_WATERMARK" = "Ẩn hình mờ kênh";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Ẩn hình mờ của kênh trong lớp phủ điều khiển video. Yêu cầu khởi động lại ứng dụng.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Ẩn nút Next và nút Previous";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Ẩn nút Next và nút Previous trong trình phát video.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Thay thế nút chuyển video";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Thay thế nút chuyển video bằng nút tua nhanh. Cần khởi động lại ứng dụng.";
+
+"HIDE_HOVER_CARD" = "Ẩn video dạng thumbnails (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Ẩn thumbnail của các video đề xuất xuất hiện ở cuối video.";
+
+"HIDE_RIGHT_PANEL" = "Ẩn bảng điều khiển bên phải";
+"HIDE_RIGHT_PANEL_DESC" = "Ẩn bảng điều khiển bên phải khi ở chế độ toàn màn hình. Cần khởi động lại ứng dụng.";
+
+"RED_PROGRESS_BAR" = "Thanh tiến trình màu đỏ";
+"RED_PROGRESS_BAR_DESC" = "Mang lại thanh tiến trình màu đỏ. Yêu cầu khởi động lại ứng dụng.";
+
+"DONT_EAT_MY_CONTENT" = "Ẩn tai thỏ/Dynamic Island (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "Ẩn tai thỏ/Dynamic Island chèn vào các video có tỷ lệ 2:1. Cần khởi động lại ứng dụng.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Tùy chọn hiển thị trong Shorts";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Ẩn hình đại diện của kênh";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Ẩn nút không thích";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Ẩn nút bình luận";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Ẩn nút phối lại video";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Ẩn nút chia sẻ";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Ẩn biểu ngữ 'Mua ảnh động Super Thanks'";
+"HIDE_SUPER_THANKS_DESC" = "Ẩn biểu ngữ 'Mua ảnh động Super Thanks'.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Tắt tính năng tự động tiếp tục Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "Nếu bạn thoát YouTube trong khi đang xem video Shorts, video Shorts đó sẽ không tự động phát khi bạn mở lại YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Tùy chọn giao diện";
+
+"OLED_DARK_THEME" = "Chế độ tối cho màn OLED (Thử nghiệm)";
+"OLED_DARK_THEME_2" = "Chế độ tối cho màn OLED";
+"OLED_DARK_THEME_DESC" = "Có thể không hoạt động tốt trong một số trường hợp. Cần khởi động lại ứng dụng nếu bạn bật/tắt tính năng này, nhưng không cần khởi động lại ứng dụng nếu chuyển giữa chế độ Sáng và chế độ Tối.";
+
+"OLD_DARK_THEME" = "Chủ đề tối cũ";
+"OLD_DARK_THEME_DESC" = "Chủ đề tối cũ của YouTube (chủ đề màu xám). Yêu cầu khởi động lại ứng dụng.";
+
+"DEFAULT_THEME" = "Mặc định";
+"DEFAULT_THEME_DESC" = "Chủ đề tối mặc định của YouTube. Yêu cầu khởi động lại ứng dụng.";
+
+"OLED_KEYBOARD" = "Bàn phím tối cho màn OLED (Thử nghiệm)";
+"OLED_KEYBOARD_DESC" = "Có thể không hoạt động tốt trong một vài trường hợp. Cần khởi động lại ứng dụng.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Cài đặt khác";
+
+"CAST_CONFIRM" = "Xác nhận trước khi cast video (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Hiện hộp thoại xác nhận trước khi cast video sang TV để tránh vô tình chiếm quyền điều khiển TV.";
+"CASTING" = "Truyền video";
+"MSG_ARE_YOU_SURE" = "Bạn có muốn bắt đầu truyền video không?";
+"MSG_YES" = "Có";
+"MSG_CANCEL" = "Không";
+
+"DISABLE_HINTS" = "Ẩn gợi ý";
+"DISABLE_HINTS_DESC" = "Ẩn các gợi ý tính năng thường hiện khi mới cài đặt YouTube.";
+
+"FIX_GOOGLE_SIGNIN" = "Sửa lỗi không thể đăng nhập tài khoản Google";
+"FIX_GOOGLE_SIGNIN_DESC" = "Chỉ bật tính năng này khi bạn không thể đăng nhập tài khoản Google và ứng dụng được cài qua TrollStore. Nếu bạn có thể đăng nhập bình thường thì hãy tắt tính năng này. Cần khởi động lại ứng dụng.";
+
+"HIDE_CHIP_BAR" = "Ẩn thanh phím tắt";
+"HIDE_CHIP_BAR_DESC" = "Ẩn thanh phím tắt trong Home feed (Thịnh hành, Âm nhạc, Trò chơi...) và trong Subciption feed (Tất cả, Tiếp tục xem...).";
+
+"NEW_MINIPLAYER_STYLE" = "Giao diện trình phát thu nhỏ kiểu mới (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Cần khởi động lại ứng dụng.";
+
+"YT_RE_EXPLORE" = "Thay thế tab Shorts bằng tab Khám phá (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "Cần khởi động lại ứng dụng.";

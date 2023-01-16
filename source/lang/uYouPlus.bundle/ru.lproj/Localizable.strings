@@ -1,0 +1,119 @@
+/* uYouPlusSettings */
+"VERSION" = "Версия uYouPlus: %@";
+"VERSION_CHECK" = "Нажмите, чтобы проверить доступные обновления.";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+
+"AUTO_FULLSCREEN" = "Полноэкранный режим (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Автоматически открывает ролики в полноэкранном режиме.";
+
+"SNAP_TO_CHAPTER" = "Disable snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking videos. App restart is required.";
+
+"PINCH_TO_ZOOM" = "Disable pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+
+"YT_MINIPLAYER" = "Мини-плеер для всех видео";
+"YT_MINIPLAYER_DESC" = "Принудительно активирует мини-плеер для всех видео, включая видео, предназначенное для детей.";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+
+"HIDE_AUTOPLAY_SWITCH" = "Скрыть «Автовоспроизведение»";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Убирает тумблер «Автовоспроизведение» с оверлея плеера.";
+
+"HIDE_SUBTITLES_BUTTON" = "Скрыть «Субтитры»";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Скрывает кнопку субтитров с оверлея плеера.";
+
+"HIDE_HUD_MESSAGES" = "Скрыть сообщения плеера";
+"HIDE_HUD_MESSAGES_DESC" = "Скрывает надписи YouTube, появляющиеся поверх видео.";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Hide Paid Promotion banner";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Hide the 'Includes Paid Promotions' banner in some videos.";
+
+"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Скрыть «След.» и «Пред.»";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Убирает кнопки переключения видео «Следующий» и «Предыдущий» с плеера.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Кнопки перемотки вместо «Пред.» и «След.»";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Заменяет переключатели «Следующий» и «Предыдущий» на кнопки перемотки на 10 сек. Потребуется перезагрузка.";
+
+"HIDE_HOVER_CARD" = "Скрыть рекомендации (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Скрывает эскизы, отображаемые по окончанию видеоролика.";
+
+"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
+"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+
+"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+
+"DONT_EAT_MY_CONTENT" = "Запретить обрезку контента (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT_DESC" = "Запрещает обрезать контент с соотношением сторон 2:1 на устройствах с вырезом. Потребуется перезагрузка.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
+
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
+
+"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
+
+"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
+"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+
+// Theme
+"THEME_OPTIONS" = "Theme Options";
+
+"OLED_DARK_THEME" = "Темный режим для OLED (Бета)";
+"OLED_DARK_THEME_2" = "Темный режим для OLED";
+"OLED_DARK_THEME_DESC" = "Понадобится перезагрузка при смене цветовой темы приложения. Если OLED-тема не включится, попробуйте переключиться не светлый режим и обратно, а затем перезагрузить приложение.";
+
+"OLD_DARK_THEME" = "Old dark theme";
+"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+
+"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+
+"OLED_KEYBOARD" = "OLED-клавиатура (Бета)";
+"OLED_KEYBOARD_DESC" = "Возможно, на некоторых устройствах будет работать криво. Потребуется перезагрузка.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "Miscellaneous";
+
+"CAST_CONFIRM" = "Подтверждение «Трансляции» (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Спрашивать подтверждение перед началом трансляции во избежание случайных подключений к ТВ.";
+"CASTING" = "Трансляция";
+"MSG_ARE_YOU_SURE" = "Начать трансляцию экрана?";
+"MSG_YES" = "Да";
+"MSG_CANCEL" = "Отмена";
+
+"DISABLE_HINTS" = "Disable hints";
+"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+
+"FIX_GOOGLE_SIGNIN" = "Исправить авторизацию (TrollStore)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Включите данную опцию только не можете войти в учетную запись Google, а приложение установлено через TrollStore. Если удается авторизоваться как обычно, оставьте данную опцию отключенной. Потребуется перезагрузка.";
+
+"HIDE_CHIP_BAR" = "Hide the Upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+
+"NEW_MINIPLAYER_STYLE" = "Мини-плеер в стиле iPad (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Потребуется перезагрузка.";
+
+"YT_RE_EXPLORE" = "Вкладка «Навигация» вместо «Shorts»";
+"YT_RE_EXPLORE_DESC" = "Потребуется перезагрузка.";

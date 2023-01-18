@@ -42,7 +42,7 @@ Picture in picture and lockscreen playing without YouTube Premium :O!
 Almost 2000 features and options to customize your youtube app and experience,good luck trying them all :).
 
 ### 4K & VP9 Codec Support
-You will have the option to select 4K on supported YouTube videos.Even tho iPhones don't have a 4K panel,the quality will still better due to the higher bitrate.
+You will have the option to select 4K on supported YouTube videos.Even tho iPhones don't have a 4K panel,the quality will still be better due to the higher bitrate.
 
 # Credits
 Thanks to : Google,MiRO92,qnblackcat,CokePokes,Galactic-Dev,level3tjg,therealFoxster,JamieBerghmans,PoomSmart,HASHBANG Productions for creating such great apps and tweaks for the community.Please show your support to all of them.

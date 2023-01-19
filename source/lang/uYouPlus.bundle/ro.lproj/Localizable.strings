@@ -106,6 +106,9 @@
 "DISABLE_HINTS" = "Disable hints";
 "DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
 
+"ENABLE_FLEX" = "Enable FLEX";
+"ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
+
 "FIX_GOOGLE_SIGNIN" = "Rezolvare problemă autentificare cont Google (doar pentru utilizatorii TrollStore)";
 "FIX_GOOGLE_SIGNIN_DESC" = "Activează această opțiune doar în cazul în care nu te poți autentifica în contul tău Google și apariția a fost instalată via TrollStore. Dacă te poți autentifica fără probleme, țineți setarea dezactivată. Este necesară repornirea aplicației.";
 

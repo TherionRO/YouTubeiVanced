@@ -60,9 +60,13 @@ Thanks to : Google,MiRO92,qnblackcat,CokePokes,Galactic-Dev,level3tjg,therealFox
 3.After that,you will see iVanced installing on your iPhone.Open it,and enjoy!
 
 ### How to login with my Google account?Is not working.
+In newer versions of YouTube,google added a few security features to stop you from logging in on modded apps,including iVanced.Please follow the following steps to login using your google account
+
+(Method #1 - Working!)
+
 Watch [this tutorial here](https://github.com/qnblackcat/uYouPlus/discussions/904) to login with your google account,this works most of the times.If its not working for you,try to uninstall the vanilla youtube app when you copied the vanilla url and then paste it in the vanilla url shortcut popup banner.Also if you are using the DirtyCow exploit to hide the app shortcut banner,disable it as it breaks the shortcut script.
 
-In newer versions of YouTube,google added a few security features to stop you from logging in on modded apps,including iVanced.Please follow the following steps to login using your google account,this may not work but you can still try :
+(Method #2 - Old,may not work on newer YouTube versions)
 
 1.Open iVanced,press on login and tap and hold on the top bar where it says google login and copy the url.
 

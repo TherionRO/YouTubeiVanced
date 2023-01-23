@@ -59,6 +59,14 @@ Thanks to : Google,MiRO92,qnblackcat,CokePokes,Galactic-Dev,level3tjg,therealFox
 
 3.After that,you will see iVanced installing on your iPhone.Open it,and enjoy!
 
+### Method #2 Online signing
+
+1.Purchase a apple developer license from third party sellers,make sure to buy from trusted websites like UDIDRegistrations.
+
+2.Wait a few days(normally 3 days) after the purchase,make sure to purchase packages with Online Signing
+
+3.Use the provided signing tool from the seller and upload the iVanced ipa and press Install when the popup appears on your screen asking you to install the YouTube app.
+
 ### How to login with my Google account?Is not working.
 In newer versions of YouTube,google added a few security features to stop you from logging in on modded apps,including iVanced.Please follow the following steps to login using your google account
 

@@ -85,3 +85,14 @@ Watch [this tutorial here](https://github.com/qnblackcat/uYouPlus/discussions/90
 4.Login normally,and after logging in you will get a popup "Open in YouTube app"
 
 5.When you get the popup,press "Yes",the iVanced for YouTube app will open and you will automatically be logged into the account that you used in Safari!
+
+### How to skip sponsor and intros segments?
+
+On the top bar on YouTube home page,you will a shield button,that's iSponsorBlock.Click on that,and change the config of iSponsorBlock to your needs.
+
+### How to download YouTube videos locally?
+First,copy the video url of your choice.
+
+Now,on the YouTube's navigation bar,you will see a new option called "uYou",click on that then click the plus(+) button(which is on the top bar of uYou tab) and paste the video url you want.
+
+Now a list with a lot of options will appear,select "Audio Only" if you only want to download the audio of the video(like a song for offline listening) or select the video type which are the resolutions buttons,select the resolution you want to download and that's pretty much it.

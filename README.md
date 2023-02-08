@@ -6,7 +6,7 @@ iVanced for YouTube is a modded application for iPhone user with or without jail
 Note : iVanced for YouTube is a fork of uYou/uYouPlus based on the latest version of youtube,a rolling release with extended life support and likely more unstable.
 [iVanced Source Code here](https://github.com/qnblackcat/uYouPlus) .Keep in mind that I cannot opensource the uYou tweak and the YouTube app as this is not legal.
 
-Update : This may not get updated anymore,I lost the passion for everything related to the apple ecosystem.I switched back to android and making other projects for the android platform,I am tired of my iphones and I had enough of this garbage think.Nothing seems to work,file management is horrible without jailbreaking,5 minutes to sideload a 10mb app,hours and hours to save a file on the phone because it doesnt want to just copy&paste if from google drive or other clouds.I am sorry,I will still try to update iVanced as some of my friends also started to help me with this project,but don't expect too much in the near future.
+Update : This may not get updated anymore,I lost the passion for everything related to the apple ecosystem.I switched back to android and making other projects for the android platform,I am tired of my iphones and I had enough of this garbage thing.Nothing seems to work,file management is horrible without jailbreaking,5 minutes to sideload a 10mb app,hours and hours to save a file on the phone because it doesnt want to just copy&paste if from google drive or other clouds.I am sorry,I will still try to update iVanced as some of my friends also started to help me with this project,but don't expect too much in the near future.
 
 # Download iVanced
 

@@ -5,6 +5,7 @@
 #import <sys/utsname.h>
 #import <substrate.h>
 #import "Header.h"
+#import "Tweaks/FLEX/FLEX.h"
 #import "Tweaks/YouTubeHeader/YTVideoQualitySwitchOriginalController.h"
 #import "Tweaks/YouTubeHeader/YTPlayerViewController.h"
 #import "Tweaks/YouTubeHeader/YTWatchController.h"
@@ -130,6 +131,9 @@ static BOOL oldDarkTheme() {
 - (void)didTapOverflowButton:(id)sender {}
 %end
 
+%subclass YTReelPlayerBottomButton : YTReelPlayerButton
+%end
+
 %hook NSLayoutConstraint
 + (instancetype)constraintWithItem:(UIView *)view1
                          attribute:(NSLayoutAttribute)attr1
@@ -140,10 +144,10 @@ static BOOL oldDarkTheme() {
                           constant:(CGFloat)c {
     if (![view1 isKindOfClass:%c(YTReelPlayerBottomButton)] &&
         ![view1.accessibilityIdentifier isEqualToString:@"com.miro.uyou"])
-    return %orig;
+        return %orig;
     if (!view2) {
         view1.hidden = YES;
-    return [NSLayoutConstraint alloc];
+        return [NSLayoutConstraint alloc];
     }
     YTReelPlayerBottomButton *uYouButton = (YTReelPlayerBottomButton *)view1;
     YTReelPlayerBottomButton *topButton = (YTReelPlayerBottomButton *)view2;
@@ -193,7 +197,18 @@ static BOOL didFinishLaunching;
     didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> *)launchOptions {
     didFinishLaunching = %orig;
     self.downloadsVC = [self.downloadsVC init];
+
+    if (IsEnabled(@"flex_enabled")) {
+        [[FLEXManager sharedManager] showExplorer];
+    }
+
     return didFinishLaunching;
+}
+- (void)appWillResignActive:(id)arg1 {
+    %orig;
+         if (IsEnabled(@"flex_enabled")) {
+         [[FLEXManager sharedManager] showExplorer];
+    }
 }
 %end
 
@@ -254,31 +269,7 @@ static BOOL didFinishLaunching;
 }
 %end
 
-// Fix "Google couldn't confirm this attempt to sign in is safe. If you think this is a mistake, you can close and try again to sign in" - qnblackcat/uYouPlus#420
-// Thanks to @AhmedBafkir and @kkirby - https://github.com/qnblackcat/uYouPlus/discussions/447#discussioncomment-3672881
-%group gFixGoogleSignIn
-%hook SSORPCService
-+ (id)URLFromURL:(id)arg1 withAdditionalFragmentParameters:(NSDictionary *)arg2 {
-    NSURL *orig = %orig;
-    NSURLComponents *urlComponents = [[NSURLComponents alloc] initWithURL:orig resolvingAgainstBaseURL:NO];
-    NSMutableArray *newQueryItems = [urlComponents.queryItems mutableCopy];
-    for (NSURLQueryItem *queryItem in urlComponents.queryItems) {
-        if ([queryItem.name isEqualToString:@"system_version"]
-         || [queryItem.name isEqualToString:@"app_version"]
-         || [queryItem.name isEqualToString:@"kdlc"]
-         || [queryItem.name isEqualToString:@"kss"]
-         || [queryItem.name isEqualToString:@"lib_ver"]
-         || [queryItem.name isEqualToString:@"device_model"]) {
-            [newQueryItems removeObject:queryItem];
-        }
-    }
-    urlComponents.queryItems = [newQueryItems copy];
-    return urlComponents.URL;
-}
-%end
-%end
-
-// Hide YouTube Shorts banner in Home page? - @MiRO92 - YTNoShorts: https://github.com/MiRO92/YTNoShorts
+// Hide YouTube annoying banner in Home page? - @MiRO92 - YTNoShorts: https://github.com/MiRO92/YTNoShorts
 %hook YTAsyncCollectionView
 - (id)cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = %orig;
@@ -292,7 +283,6 @@ static BOOL didFinishLaunching;
     }
     return %orig;
 }
-
 %new
 - (void)removeShortsAndFeaturesAdsAtIndexPath:(NSIndexPath *)indexPath {
         [self deleteItemsAtIndexPaths:[NSArray arrayWithObject:indexPath]];
@@ -360,6 +350,13 @@ static BOOL didFinishLaunching;
     if ([key isEqualToString:@"CFBundleDisplayName"] || [key isEqualToString:@"CFBundleName"])
         return YT_NAME;
     return %orig;
+}
+// Fix Google Sign in by @PoomSmart and @level3tjg (qnblackcat/uYouPlus#684)
+- (NSDictionary *)infoDictionary {
+    NSMutableDictionary *info = %orig.mutableCopy;
+    NSString *altBundleIdentifier = info[@"ALTBundleIdentifier"];
+    if (altBundleIdentifier) info[@"CFBundleIdentifier"] = altBundleIdentifier;
+    return info;
 }
 %end
 
@@ -448,11 +445,6 @@ static BOOL didFinishLaunching;
 - (BOOL)respectDeviceCaptionSetting { return NO; } // YouRememberCaption: https://poomsmart.github.io/repo/depictions/youremembercaption.html
 - (BOOL)isLandscapeEngagementPanelSwipeRightToDismissEnabled { return YES; } // Swipe right to dismiss the right panel in fullscreen mode
 - (BOOL)mainAppCoreClientIosTransientVisualGlitchInPivotBarFix { return NO; } // Fix uYou's label glitching - qnblackcat/uYouPlus#552
-- (BOOL)enableSwipeToRemoveInPlaylistWatchEp { return YES; } // Enable swipe right to remove video in Playlist.
-%end
-
-%hook YTHotConfig
-- (BOOL)iosEnableShortsPlayerSplitViewController { return NO; } // Fix uYou's button missing in Shorts: qnblackcat/uYouPlus#800
 %end
 
 // NOYTPremium - https://github.com/PoomSmart/NoYTPremium/
@@ -808,14 +800,21 @@ void DEMC_centerRenderingView() {
 
 %hook MLHAMQueuePlayer
 - (void)setRate:(float)rate {
-	MSHookIvar<float>(self, "_rate") = rate;
+    MSHookIvar<float>(self, "_rate") = rate;
+	MSHookIvar<float>(self, "_preferredRate") = rate;
 
-	id ytPlayer = MSHookIvar<HAMPlayerInternal *>(self, "_player");
-	[ytPlayer setRate:rate];
+	id player = MSHookIvar<HAMPlayerInternal *>(self, "_player");
+	[player setRate: rate];
 
-	[self.playerEventCenter broadcastRateChange:rate];
+	id stickySettings = MSHookIvar<MLPlayerStickySettings *>(self, "_stickySettings");
+	[stickySettings setRate: rate];
+
+	[self.playerEventCenter broadcastRateChange: rate];
+
+	YTSingleVideoController *singleVideoController = self.delegate;
+	[singleVideoController playerRateDidChange: rate];
 }
-%end
+%end 
 
 %hook YTPlayerViewController
 %property float playbackRate;
@@ -843,9 +842,8 @@ void DEMC_centerRenderingView() {
 
 // Disable Pinch to zoom
 %hook YTColdConfig
-- (BOOL)videoZoomFreeZoomEnabledGlobalConfig { 
-    if (IsEnabled(@"pinchToZoom_enabled")) { return NO; }
-    else { return %orig; }
+- (BOOL)videoZoomFreeZoomEnabledGlobalConfig {
+    return IsEnabled(@"pinchToZoom_enabled") ? NO : %orig;
 }
 %end
 
@@ -853,10 +851,7 @@ void DEMC_centerRenderingView() {
 // Hide CC / Autoplay switch
 %hook YTMainAppControlsOverlayView
 - (void)setClosedCaptionsOrSubtitlesButtonAvailable:(BOOL)arg1 { // hide CC button
-    if (IsEnabled(@"hideCC_enabled")) { 
-        return %orig(NO); 
-    }   
-    else { return %orig; }
+    return IsEnabled(@"hideCC_enabled") ? %orig(NO) : %orig;
 }
 - (void)setAutoplaySwitchButtonRenderer:(id)arg1 { // hide Autoplay
     if (IsEnabled(@"hideAutoplaySwitch_enabled")) {}
@@ -897,17 +892,15 @@ void DEMC_centerRenderingView() {
 
 // Bring back the red progress bar
 %hook YTColdConfig
-- (BOOL)segmentablePlayerBarUpdateColors {  
-    if (IsEnabled(@"redProgressBar_enabled")) { return NO; }
-    else { return %orig; }
+- (BOOL)segmentablePlayerBarUpdateColors {
+    return IsEnabled(@"redProgressBar_enabled") ? NO : %orig;
 }
 %end
 
 // Disable the right panel in fullscreen mode
 %hook YTColdConfig
-- (BOOL)isLandscapeEngagementPanelEnabled { 
-    if (IsEnabled(@"hideRightPanel_enabled")) { return NO; }
-    else { return %orig; }
+- (BOOL)isLandscapeEngagementPanelEnabled {
+    return IsEnabled(@"hideRightPanel_enabled") ? NO : %orig;
 }
 %end
 
@@ -935,17 +928,24 @@ void DEMC_centerRenderingView() {
 }
 %end
 
-%hook _ASDisplayView
-- (void)didMoveToWindow {
-    %orig;
-    if ((IsEnabled(@"hideBuySuperThanks_enabled")) && ([self.accessibilityIdentifier isEqualToString:@"id.elements.components.suggested_action"])) { self.hidden = YES; }
+%hook YTHotConfig
+- (BOOL)iosEnableShortsPlayerSplitViewController { 
+    return IsEnabled(@"hideuYouShortsDownloadButton_enabled") ? YES : NO;
 }
 %end
 
-%hook YTColdConfig
-- (BOOL)enableResumeToShorts {
-    if (IsEnabled(@"disableResumeToShorts")) { return NO; }
-    else { return %orig; }
+%hook _ASDisplayView
+- (void)didMoveToWindow {
+    %orig;
+    if ((IsEnabled(@"hideBuySuperThanks_enabled")) && ([self.accessibilityIdentifier isEqualToString:@"id.elements.components.suggested_action"])) { 
+        self.hidden = YES; 
+    }
+}
+%end
+
+%hook YTShortsStartupCoordinator
+- (id)evaluateResumeToShorts { 
+    return IsEnabled(@"disableResumeToShorts") ? nil : %orig;
 }
 %end
 
@@ -993,50 +993,22 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
 %group gOLED
 %hook YTCommonColorPalette
 - (UIColor *)brandBackgroundSolid {
-    if (self.pageStyle == 1) {
-        return [UIColor blackColor];
-    }
-        return %orig;
+    return self.pageStyle == 1 ? [UIColor blackColor] : %orig;
 }
 - (UIColor *)brandBackgroundPrimary {
-    if (self.pageStyle == 1) {
-        return [UIColor blackColor];
-    }
-        return %orig;
+    return self.pageStyle == 1 ? [UIColor blackColor] : %orig;
 }
 - (UIColor *)brandBackgroundSecondary {
-    if (self.pageStyle == 1) {
-        return [[UIColor blackColor] colorWithAlphaComponent:0.9];
-    }
-        return %orig;
+    return self.pageStyle == 1 ? [[UIColor blackColor] colorWithAlphaComponent:0.9] : %orig;
 }
 - (UIColor *)raisedBackground {
-    if (self.pageStyle == 1) {
-        return [UIColor blackColor];
-    }
-        return %orig;
+    return self.pageStyle == 1 ? [UIColor blackColor] : %orig;
 }
 - (UIColor *)staticBrandBlack {
-    if (self.pageStyle == 1) {
-        return [UIColor blackColor];
-    }
-        return %orig;
+    return self.pageStyle == 1 ? [UIColor blackColor] : %orig;
 }
 - (UIColor *)generalBackgroundA {
-    if (self.pageStyle == 1) {
-        return [UIColor blackColor];
-    }
-        return %orig;
-}
-%end
-
-// Account view controller
-%hook YTAccountPanelBodyViewController
-- (UIColor *)backgroundColor:(NSInteger)pageStyle {
-    if (pageStyle == 1) { 
-        return [UIColor blackColor]; 
-    }
-        return %orig;
+    return self.pageStyle == 1 ? [UIColor blackColor] : %orig;
 }
 %end
 
@@ -1044,7 +1016,7 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
 %hook ASScrollView 
 - (void)didMoveToWindow {
     %orig;
-    if (isDarkMode()) { 
+    if (isDarkMode()) {
         self.backgroundColor = [UIColor clearColor];
     }
 }
@@ -1054,7 +1026,7 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
 %hook ASCollectionView
 - (void)didMoveToWindow {
     %orig;
-    if (isDarkMode() && [self.nextResponder isKindOfClass:%c(_ASDisplayView)]) { 
+    if (isDarkMode() && [self.nextResponder isKindOfClass:%c(_ASDisplayView)]) {
         self.superview.backgroundColor = [UIColor blackColor];
     }
 }
@@ -1091,55 +1063,38 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
 
 // Search View
 %hook YTSearchBarView 
-- (void)setBackgroundColor:(UIColor *)color { 
-    if (isDarkMode()) {
-        return %orig([UIColor blackColor]);
-    }
-        return %orig;
+- (void)setBackgroundColor:(UIColor *)color {
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
 }
 %end
 
 // History Search view
 %hook YTSearchBoxView 
-- (void)setBackgroundColor:(UIColor *)color { 
-    if (isDarkMode()) {
-        return %orig([UIColor blackColor]);
-    }
-        return %orig;
+- (void)setBackgroundColor:(UIColor *)color {
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
+
 }
 %end
 
 // Comment view
 %hook YTCommentView
-- (void)setBackgroundColor:(UIColor *)color { 
-    if (isDarkMode()) {
-        return %orig([UIColor blackColor]);
-    }
-        return %orig;
+- (void)setBackgroundColor:(UIColor *)color {
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
 }
 %end
 
 %hook YTCreateCommentAccessoryView
-- (void)setBackgroundColor:(UIColor *)color { 
-    if (isDarkMode()) {
-        return %orig([UIColor blackColor]);
-    }
-        return %orig;
+- (void)setBackgroundColor:(UIColor *)color {
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
 }
 %end
 
 %hook YTCreateCommentTextView
-- (void)setBackgroundColor:(UIColor *)color { 
-    if (isDarkMode()) {
-        return %orig([UIColor blackColor]);
-    }
-        return %orig;
+- (void)setBackgroundColor:(UIColor *)color {
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
 }
 - (void)setTextColor:(UIColor *)color { // fix black text in #Shorts video's comment
-    if (isDarkMode()) { 
-        return %orig([UIColor whiteColor]); 
-    }
-        return %orig;
+    return isDarkMode() ? %orig([UIColor whiteColor]) : %orig;
 }
 %end
 
@@ -1154,39 +1109,42 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
 
 %hook YTFormattedStringLabel  // YT is werid...
 - (void)setBackgroundColor:(UIColor *)color {
-    if (isDarkMode()) {
-        return %orig([UIColor clearColor]);
-    }
-        return %orig;
+    return isDarkMode() ? %orig([UIColor clearColor]) : %orig;
 }
 %end
 
 // Live chat comment
 %hook YCHLiveChatActionPanelView 
 - (void)setBackgroundColor:(UIColor *)color {
-    if (isDarkMode()) {
-        return %orig([UIColor blackColor]);
-    }
-        return %orig;
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
 }
 %end
 
 %hook YTEmojiTextView
 - (void)setBackgroundColor:(UIColor *)color {
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
+}
+%end
+
+%hook YCHLiveChatView
+- (void)didMoveToWindow {
+    %orig;
     if (isDarkMode()) {
-        return %orig([UIColor blackColor]);
+        self.subviews[1].backgroundColor = [UIColor blackColor];
     }
-        return %orig;
+}
+%end
+
+%hook YTCollectionView 
+- (void)setBackgroundColor:(UIColor *)color { 
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
 }
 %end
 
 //
 %hook YTBackstageCreateRepostDetailView
 - (void)setBackgroundColor:(UIColor *)color {
-    if (isDarkMode()) {
-        return %orig([UIColor blackColor]);
-    }
-        return %orig;
+    return isDarkMode() ? %orig([UIColor blackColor]) : %orig;
 }
 %end
 
@@ -1197,6 +1155,7 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
     if (isDarkMode()) {
         if ([self.nextResponder isKindOfClass:%c(ASScrollView)]) { self.backgroundColor = [UIColor clearColor]; }
         if ([self.accessibilityIdentifier isEqualToString:@"eml.cvr"]) { self.backgroundColor = [UIColor blackColor]; }
+        if ([self.accessibilityIdentifier isEqualToString:@"eml.live_chat_text_message"]) { self.backgroundColor = [UIColor blackColor]; }
         if ([self.accessibilityIdentifier isEqualToString:@"rich_header"]) { self.backgroundColor = [UIColor blackColor]; }
         if ([self.accessibilityIdentifier isEqualToString:@"id.ui.comment_cell"]) { self.backgroundColor = [UIColor blackColor]; }
         if ([self.accessibilityIdentifier isEqualToString:@"id.ui.cancel.button"]) { self.superview.backgroundColor = [UIColor clearColor]; }
@@ -1205,6 +1164,7 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
         if ([self.accessibilityIdentifier isEqualToString:@"id.comment.guidelines_text"]) { self.superview.backgroundColor = [UIColor blackColor]; }
         if ([self.accessibilityIdentifier isEqualToString:@"id.comment.channel_guidelines_bottom_sheet_container"]) { self.backgroundColor = [UIColor blackColor]; }
         if ([self.accessibilityIdentifier isEqualToString:@"id.comment.channel_guidelines_entry_banner_container"]) { self.backgroundColor = [UIColor blackColor]; }
+        if ([self.accessibilityIdentifier isEqualToString:@"id.comment.comment_group_detail_container"]) { self.backgroundColor = [UIColor clearColor]; }
     }
 }
 %end
@@ -1212,26 +1172,20 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
 // Open link with...
 %hook ASWAppSwitchingSheetHeaderView
 - (void)setBackgroundColor:(UIColor *)color {
-    if (isDarkMode()) {
-        return %orig(raisedColor);
-    }
-        return %orig;
+    return isDarkMode() ? %orig(raisedColor) : %orig;
 }
 %end
 
 %hook ASWAppSwitchingSheetFooterView
 - (void)setBackgroundColor:(UIColor *)color {
-    if (isDarkMode()) {
-        return %orig(raisedColor);
-    }
-        return %orig;
+    return isDarkMode() ? %orig(raisedColor) : %orig;
 }
 %end
 
 %hook ASWAppSwitcherCollectionViewCell
 - (void)didMoveToWindow {
     %orig;
-    if (isDarkMode()) { 
+    if (isDarkMode()) {
         self.backgroundColor = raisedColor;
         self.subviews[1].backgroundColor = raisedColor;
         self.superview.backgroundColor = raisedColor;
@@ -1324,6 +1278,36 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
 // %end
 %end
 
+%group giPhoneLayout
+%hook UIDevice
+- (long long)userInterfaceIdiom {
+    return NO;
+} 
+%end
+%hook UIStatusBarStyleAttributes
+- (long long)idiom {
+    return YES;
+} 
+%end
+%hook UIKBTree
+- (long long)nativeIdiom {
+    return YES;
+} 
+%end
+%hook UIKBRenderer
+- (long long)assetIdiom {
+    return YES;
+} 
+%end
+%end
+
+// YT startup animation
+%hook YTColdConfig
+- (BOOL)mainAppCoreClientIosEnableStartupAnimation {
+    return IsEnabled(@"ytStartupAnimation_enabled") ? YES : NO;
+}
+%end
+
 # pragma mark - ctor
 %ctor {
     // Load uYou first so its functions are available for hooks.
@@ -1332,9 +1316,6 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
     %init;
     if (@available(iOS 16, *)) {
        %init(iOS16);
-    }
-    if (!IsEnabled(@"fixGoogleSignIn_enabled")) {
-       %init(gFixGoogleSignIn);
     }
     if (IsEnabled(@"reExplore_enabled")) {
        %init(gReExplore);
@@ -1366,6 +1347,9 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
     if (IsEnabled(@"hideChipBar_enabled")) {
        %init(gHideChipBar);
     }
+    if (IsEnabled(@"iPhoneLayout_enabled") && (UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad)) {
+       %init(giPhoneLayout);
+    }
 
     // Disable updates
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"automaticallyCheckForUpdates"];
@@ -1375,7 +1359,7 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"disableAgeRestriction"];
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"showedWelcomeVC"];
     
-    // Change the default value of some uYou's options
+    // Change the default value of some options
     NSArray *allKeys = [[[NSUserDefaults standardUserDefaults] dictionaryRepresentation] allKeys];
     if (![allKeys containsObject:@"relatedVideosAtTheEndOfYTVideos"]) { 
        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"relatedVideosAtTheEndOfYTVideos"]; 
@@ -1385,5 +1369,11 @@ UIColor* raisedColor = [UIColor colorWithRed:0.035 green:0.035 blue:0.035 alpha:
     }
     if (![allKeys containsObject:@"uYouPiPButtonVideoControlsOverlay"]) { 
        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"uYouPiPButtonVideoControlsOverlay"]; 
+    }
+    if (![allKeys containsObject:@"RYD-ENABLED"]) { 
+       [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"RYD-ENABLED"]; 
+    }
+    if (![allKeys containsObject:@"YouPiPEnabled"]) { 
+       [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"YouPiPEnabled"]; 
     }
 }

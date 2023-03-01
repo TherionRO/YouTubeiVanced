@@ -71,6 +71,9 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "Nascondi il bottone condividi dagli Shorts";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Nascondi il uYou's bottone download Shorts";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Nascondi il bottone uYou's download dagli Shorts.";
+
 "HIDE_SUPER_THANKS" = "Nascondi 'Buy Super Thanks'";
 "HIDE_SUPER_THANKS_DESC" = "Nascondi il banner 'Buy Super Thanks' dagli Shorts.";
 
@@ -87,7 +90,7 @@
 "OLD_DARK_THEME" = "Vecchio Tema Scuro (Sperimentale)";
 "OLD_DARK_THEME_DESC" = "Tema scuro del vecchio YouTube (tema grigio). È richiesto il riavvio dell'app.";
 
-"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME" = "Predefinito";
 "DEFAULT_THEME_DESC" = "Tema scuro predefinito di YouTube. È richiesto il riavvio dell'app.";
 
 "OLED_KEYBOARD" = "Tastiera OLED (Sperimentale)";
@@ -106,8 +109,11 @@
 "DISABLE_HINTS" = "Disabilita i suggerimenti";
 "DISABLE_HINTS_DESC" = "Disabilita i suggerimenti sulle funzionalità di YouTube che di solito vengono visualizzati quando l'app viene appena installata.";
 
-"ENABLE_FLEX" = "Enable FLEX";
-"ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
+"ENABLE_FLEX" = "Abilita FLEX";
+"ENABLE_FLEX_DESC" = "Abilita FLEX per il debugging (sconsigliato). Lascialo disabilitato se non sai cosa stai facendo.";
+
+"ENABLE_YT_STARTUP_ANIMATION" = "Abilita YouTube startup animazione";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "Ripara Google Sign in (solo per utenti TrollStore)";
 "FIX_GOOGLE_SIGNIN_DESC" = "Attiva questa opzione solo quando non puoi accedere al tuo account Google e l'app è stata installata attraverso TrollStore. Se puoi accedere normalmente, tienila disabilitata. È richiesto un riavvio dell'app.";
@@ -120,3 +126,6 @@
 
 "YT_RE_EXPLORE" = "Sostituisci il tab Shorts con il tab Esplora (YTReExplore)";
 "YT_RE_EXPLORE_DESC" = "È richiesto un riavvio dell'app.";
+
+"IPHONE_LAYOUT" = "iPhone Layout";
+"IPHONE_LAYOUT_DESC" = "Seleziona per usare il Layout Iphone. È richiesto il riavvio dell'app.";

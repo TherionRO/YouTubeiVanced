@@ -71,6 +71,9 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's download buttons in Shorts";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "";
+
 "HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
 "HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
 
@@ -109,6 +112,9 @@
 "ENABLE_FLEX" = "Enable FLEX";
 "ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
 
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+
 "FIX_GOOGLE_SIGNIN" = "Rezolvare problemă autentificare cont Google (doar pentru utilizatorii TrollStore)";
 "FIX_GOOGLE_SIGNIN_DESC" = "Activează această opțiune doar în cazul în care nu te poți autentifica în contul tău Google și apariția a fost instalată via TrollStore. Dacă te poți autentifica fără probleme, țineți setarea dezactivată. Este necesară repornirea aplicației.";
 
@@ -120,3 +126,6 @@
 
 "YT_RE_EXPLORE" = "Înlocuire fila Shorts cu fila Explore (YTReExplore)";
 "YT_RE_EXPLORE_DESC" = "Este necesară repornirea aplicației.";
+
+"IPHONE_LAYOUT" = "iPhone Layout";
+"IPHONE_LAYOUT_DESC" = "Toggle to use the iPhone Layout. App restart is required.";

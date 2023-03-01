@@ -71,6 +71,9 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+
 "HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
 "HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
 
@@ -109,6 +112,9 @@
 "ENABLE_FLEX" = "Enable FLEX";
 "ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
 
+"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
+
 "FIX_GOOGLE_SIGNIN" = "Google Oturumu Açma'yı düzeltin (yalnızca TrollStore kullanıcıları için)";
 "FIX_GOOGLE_SIGNIN_DESC" = "Bu seçeneği yalnızca Google hesabınızla oturum açamadığınızda ve uygulama TrollStore aracılığıyla yüklendiyse açın. Normal olarak giriş yapabiliyorsanız, devre dışı bırakın. Uygulamanın yeniden başlatılması gerekir.";
 
@@ -120,3 +126,6 @@
 
 "YT_RE_EXPLORE" = "Shorts sekmesini Keşfet sekmesiyle değiştirin (YTReExplore)";
 "YT_RE_EXPLORE_DESC" = "Uygulamanın yeniden başlatılması gerekir.";
+
+"IPHONE_LAYOUT" = "iPhone Layout";
+"IPHONE_LAYOUT_DESC" = "Toggle to use the iPhone Layout. App restart is required.";

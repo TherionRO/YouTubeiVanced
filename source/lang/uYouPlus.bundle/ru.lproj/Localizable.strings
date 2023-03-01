@@ -3,22 +3,22 @@
 "VERSION_CHECK" = "Нажмите, чтобы проверить доступные обновления.";
 
 // Video player options
-"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+"VIDEO_PLAYER_OPTIONS" = "Параметры видеоплеера";
 
 "AUTO_FULLSCREEN" = "Полноэкранный режим (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Автоматически открывает ролики в полноэкранном режиме.";
 
-"SNAP_TO_CHAPTER" = "Disable snap to chapter";
-"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking videos. App restart is required.";
+"SNAP_TO_CHAPTER" = "Отключить привязку к эпизодам";
+"SNAP_TO_CHAPTER_DESC" = "Отключает автоматическую привязку к эпизодам при перемотке видео. Требуется перезапуск приложения.";
 
-"PINCH_TO_ZOOM" = "Disable pinch to zoom";
-"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+"PINCH_TO_ZOOM" = "Отключить функцию масштабирования";
+"PINCH_TO_ZOOM_DESC" = "Требуется перезапуск приложения.";
 
 "YT_MINIPLAYER" = "Мини-плеер для всех видео";
 "YT_MINIPLAYER_DESC" = "Принудительно активирует мини-плеер для всех видео, включая видео, предназначенное для детей.";
 
 // Video controls overlay options
-"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Параметры элементов оверлея видеоплеера";
 
 "HIDE_AUTOPLAY_SWITCH" = "Скрыть «Автовоспроизведение»";
 "HIDE_AUTOPLAY_SWITCH_DESC" = "Убирает тумблер «Автовоспроизведение» с оверлея плеера.";
@@ -29,11 +29,11 @@
 "HIDE_HUD_MESSAGES" = "Скрыть сообщения плеера";
 "HIDE_HUD_MESSAGES_DESC" = "Скрывает надписи YouTube, появляющиеся поверх видео.";
 
-"HIDE_PAID_PROMOTION_CARDS" = "Hide Paid Promotion banner";
-"HIDE_PAID_PROMOTION_CARDS_DESC" = "Hide the 'Includes Paid Promotions' banner in some videos.";
+"HIDE_PAID_PROMOTION_CARDS" = "Скрыть рекламный баннер";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Скрывает баннер «Есть реклама» в роликах со встроенной рекламой.";
 
-"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
-"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+"HIDE_CHANNEL_WATERMARK" = "Скрыть водяной знак канала";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Скрывает водяной знак канала с видео. Требуется перезапуск приложения.";
 
 "HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Скрыть «След.» и «Пред.»";
 "HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Убирает кнопки переключения видео «Следующий» и «Предыдущий» с плеера.";
@@ -44,57 +44,60 @@
 "HIDE_HOVER_CARD" = "Скрыть рекомендации (YTNoHoverCards)";
 "HIDE_HOVER_CARD_DESC" = "Скрывает эскизы, отображаемые по окончанию видеоролика.";
 
-"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
-"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+"HIDE_RIGHT_PANEL" = "Скрыть правую панель в полноэкранном режиме";
+"HIDE_RIGHT_PANEL_DESC" = "Требуется перезапуск приложения.";
 
-"RED_PROGRESS_BAR" = "Red progress bar";
-"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+"RED_PROGRESS_BAR" = "Красная полоса воспроизведения";
+"RED_PROGRESS_BAR_DESC" = "Возвращает красную полосу воспроизведения. Требуется перезапуск приложения.";
 
 "DONT_EAT_MY_CONTENT" = "Запретить обрезку контента (DontEatMyContent)";
 "DONT_EAT_MY_CONTENT_DESC" = "Запрещает обрезать контент с соотношением сторон 2:1 на устройствах с вырезом. Потребуется перезагрузка.";
 
 // Shorts controls overlay options
-"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Параметры элементов оверлея в Shorts";
 
-"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Скрыть аватар канала в Shorts";
 "HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
 
-"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Скрыть кнопку 'Не нравится' в Shorts ";
 "HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON" = "Скрыть кнопку комментария в Shorts";
 "HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON" = "Скрыть кнопку 'Ремикс' в Shorts";
 "HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON" = "Скрыть кнопку 'Поделиться' в Shorts";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
-"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
-"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Скрыть кнопки uYou";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Скрывает кнопки uYou для скачивания видеороликов Shorts.";
 
-"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
-"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+"HIDE_SUPER_THANKS" = "Скрыть баннер 'Купить суперспасибо'";
+"HIDE_SUPER_THANKS_DESC" = "Скрывает баннер 'Купить суперспасибо' в Shorts.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Отключить продолжение видео Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "Если закрыть YouTube во время просмотра видео Shorts, то при следующем запуске YouTube видео Shorts не будет автоматически воспроизводиться.";
 
 // Theme
-"THEME_OPTIONS" = "Theme Options";
+"THEME_OPTIONS" = "Параметры темы";
 
 "OLED_DARK_THEME" = "Темный режим для OLED (Бета)";
 "OLED_DARK_THEME_2" = "Темный режим для OLED";
 "OLED_DARK_THEME_DESC" = "Понадобится перезагрузка при смене цветовой темы приложения. Если OLED-тема не включится, попробуйте переключиться не светлый режим и обратно, а затем перезагрузить приложение.";
 
-"OLD_DARK_THEME" = "Old dark theme";
-"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+"OLD_DARK_THEME" = "Старая темная тема";
+"OLD_DARK_THEME_DESC" = "Старая темная тема YouTube (серая тема). Требуется перезапуск приложения.";
 
-"DEFAULT_THEME" = "Default";
-"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+"DEFAULT_THEME" = "По умолчанию";
+"DEFAULT_THEME_DESC" = "Темная(новая) тема YouTube по умолчанию. Требуется перезапуск приложения.";
 
 "OLED_KEYBOARD" = "OLED-клавиатура (Бета)";
 "OLED_KEYBOARD_DESC" = "Возможно, на некоторых устройствах будет работать криво. Потребуется перезагрузка.";
 
 // Miscellaneous
-"MISCELLANEOUS" = "Miscellaneous";
+"MISCELLANEOUS" = "Другое";
 
 "CAST_CONFIRM" = "Подтверждение «Трансляции» (YTCastConfirm)";
 "CAST_CONFIRM_DESC" = "Спрашивать подтверждение перед началом трансляции во избежание случайных подключений к ТВ.";
@@ -103,20 +106,26 @@
 "MSG_YES" = "Да";
 "MSG_CANCEL" = "Отмена";
 
-"DISABLE_HINTS" = "Disable hints";
-"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+"DISABLE_HINTS" = "Отключить подсказки";
+"DISABLE_HINTS_DESC" = "Отключает подсказки функций с YouTube, которые обычно отображаются при свежей установке приложения.";
 
-"ENABLE_FLEX" = "Enable FLEX";
-"ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
+"ENABLE_FLEX" = "Включить FLEX";
+"ENABLE_FLEX_DESC" = "Включите FLEX для отладки (не рекомендуется). Не включайте эту опцию, если вы не знаете, что делаете.";
+
+"ENABLE_YT_STARTUP_ANIMATION" = "Включить анимацию запуска YouTube";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "Исправить авторизацию (TrollStore)";
-"FIX_GOOGLE_SIGNIN_DESC" = "Включите данную опцию только не можете войти в учетную запись Google, а приложение установлено через TrollStore. Если удается авторизоваться как обычно, оставьте данную опцию отключенной. Потребуется перезагрузка.";
+"FIX_GOOGLE_SIGNIN_DESC" = "Включите данную опцию только, если не можете войти в учетную запись Google, а приложение установлено через TrollStore. Если удается авторизоваться как обычно, оставьте данную опцию отключенной. Потребуется перезагрузка.";
 
-"HIDE_CHIP_BAR" = "Hide the Upper bar";
-"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+"HIDE_CHIP_BAR" = "Скрыть верхнюю панель";
+"HIDE_CHIP_BAR_DESC" = "Скрывает верхнюю панель на вкладках «Главная» (Тренды, Музыка, Игры...) и «Подписки» (Все видео, Продолжить просмотр...)\nТребуется перезапуск приложения.";
 
 "NEW_MINIPLAYER_STYLE" = "Мини-плеер в стиле iPad (BigYTMiniPlayer)";
 "NEW_MINIPLAYER_STYLE_DESC" = "Потребуется перезагрузка.";
 
 "YT_RE_EXPLORE" = "Вкладка «Навигация» вместо «Shorts»";
 "YT_RE_EXPLORE_DESC" = "Потребуется перезагрузка.";
+
+"IPHONE_LAYOUT" = "Оформление приложения как на iPhone";
+"IPHONE_LAYOUT_DESC" = "Переключает оформление приложения как на iPhone. Требуется перезапуск приложения.";

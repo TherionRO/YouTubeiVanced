@@ -71,6 +71,9 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+
 "HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
 "HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
 
@@ -109,6 +112,9 @@
 "ENABLE_FLEX" = "Enable FLEX";
 "ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
 
+"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
+
 "FIX_GOOGLE_SIGNIN" = "修復 Google 帳號登入問題（僅TrollStore 使用者有效）";
 "FIX_GOOGLE_SIGNIN_DESC" = "僅在使用 TrollStore 安裝此應用程式時有效：啟用本設定後即可正常登入 Google 帳號，需要重新啟動應用程式。";
 
@@ -120,3 +126,6 @@
 
 "YT_RE_EXPLORE" = "用探索選項卡代替 Shorts 選項卡 (YTReExplore)";
 "YT_RE_EXPLORE_DESC" = "需要重新啟動應用程式。";
+
+"IPHONE_LAYOUT" = "iPhone Layout";
+"IPHONE_LAYOUT_DESC" = "Toggle to use the iPhone Layout. App restart is required.";

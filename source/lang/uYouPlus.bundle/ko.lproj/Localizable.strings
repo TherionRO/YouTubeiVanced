@@ -71,6 +71,9 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "Shorts 영상 공유 버튼 숨기기";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+
 "HIDE_SUPER_THANKS" = "'Super Thanks 구매' 배너 숨기기";
 "HIDE_SUPER_THANKS_DESC" = "Shorts 영상에서 'Super Thanks 구매' 배너를 숨깁니다.";
 
@@ -106,8 +109,11 @@
 "DISABLE_HINTS" = "힌트 표시하지 않음";
 "DISABLE_HINTS_DESC" = "앱을 새로 설치하는 경우 표시되는 앱의 몇몇 기능에 대한 설명이 표시되지 않도록 합니다.";
 
-"ENABLE_FLEX" = "Enable FLEX";
-"ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
+"ENABLE_FLEX" = "FLEX 사용";
+"ENABLE_FLEX_DESC" = "디버그를 위해 FLEX를 사용하도록 설정합니다(권장하지 않음). 사용에 익숙하지 않으면 활성화하지 마십시오.";
+
+"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "구글 로그인 문제 수정 (TrollStore 사용자만 해당)";
 "FIX_GOOGLE_SIGNIN_DESC" = "TrollStore를 통해 설치된 앱에만 적용됩니다: 구글 계정으로 로그인하려면 이 설정을 켜 주세요. 앱을 다시 시작해야 합니다.";
@@ -120,3 +126,6 @@
 
 "YT_RE_EXPLORE" = "Shorts 탭 대신 탐색 탭 보이기 (YTReExplore)";
 "YT_RE_EXPLORE_DESC" = "앱을 다시 시작해야 합니다.";
+
+"IPHONE_LAYOUT" = "아이폰 화면배치";
+"IPHONE_LAYOUT_DESC" = "아이폰의 화면배치를 사용하려면 선택하세요. 앱을 다시 시작해야 합니다.";

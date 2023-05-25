@@ -8,6 +8,9 @@
 "AUTO_FULLSCREEN" = "Pantalla completa automática (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Reproducir vídeos en pantalla completa automáticamente.";
 
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Desactivar la doble pulsación para buscar";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
 "SNAP_TO_CHAPTER" = "Deshabilitar ajuste a capítulo";
 "SNAP_TO_CHAPTER_DESC" = "Desactivar el ajuste automático a capítulo al buscar en vídeos. Es necesario reiniciar la aplicación.";
 
@@ -16,6 +19,9 @@
 
 "YT_MINIPLAYER" = "Activar el minirreproductor para todos los vídeos de YouTube";
 "YT_MINIPLAYER_DESC" = "Vídeos infantiles por ejemplo.";
+
+"STOCK_VOLUME_HUD" = "Use iOS stock volume HUD";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Opciones de superposición de controles de vídeo";
@@ -73,6 +79,9 @@
 
 "HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Ocultar botones de uYou";
 "HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Ocultar los botones de descarga de uYou en Shorts.";
+
+"HIDE_SUBCRIPTIONS" = "Hide Subscriptions button";
+"HIDE_SUBCRIPTIONS_DESC" = "Hide Subscriptions button which shows up when paused.";
 
 "HIDE_SUPER_THANKS" = "Ocultar banner 'Comprar Supergracias";
 "HIDE_SUPER_THANKS_DESC" = "Ocultar el banner 'Comprar Supergracias' en Shorts.";

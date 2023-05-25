@@ -8,6 +8,9 @@
 "AUTO_FULLSCREEN" = "Auto Schermo Intero (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Riproduci automaticamente video a tutto schermo.";
 
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Disable double tap to seek";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
 "SNAP_TO_CHAPTER" = "Disabilita snap to chapter";
 "SNAP_TO_CHAPTER_DESC" = "Disattiva lo snap to chapter durante la ricerca nei video. È richiesto il riavvio dell'app.";
 
@@ -16,6 +19,9 @@
 
 "YT_MINIPLAYER" = "Abilita il Miniplayer su tutti i video di YouTube";
 "YT_MINIPLAYER_DESC" = "Video YouTube Kids per esempio.";
+
+"STOCK_VOLUME_HUD" = "Use iOS stock volume HUD";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Opzioni Sovrimpressione (Overlay) Video";
@@ -73,6 +79,9 @@
 
 "HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Nascondi il uYou's bottone download Shorts";
 "HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Nascondi il bottone uYou's download dagli Shorts.";
+
+"HIDE_SUBCRIPTIONS" = "Hide Subscriptions button";
+"HIDE_SUBCRIPTIONS_DESC" = "Hide Subscriptions button which shows up when paused.";
 
 "HIDE_SUPER_THANKS" = "Nascondi 'Buy Super Thanks'";
 "HIDE_SUPER_THANKS_DESC" = "Nascondi il banner 'Buy Super Thanks' dagli Shorts.";

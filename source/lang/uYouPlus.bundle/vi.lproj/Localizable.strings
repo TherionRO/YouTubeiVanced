@@ -8,6 +8,9 @@
 "AUTO_FULLSCREEN" = "Tự động toàn màn hình (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Tự động phát video ở chế độ toàn màn hình.";
 
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Tắt tình năng chạm 2 lần để tua";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
 "SNAP_TO_CHAPTER" = "Vô hiệu hóa tự động chuyển tới chương";
 "SNAP_TO_CHAPTER_DESC" = "Tắt tính năng tự động chuyển tới chương gần nhất khi tua video. Cần khởi động lại ứng dụng.";
 
@@ -16,6 +19,9 @@
 
 "YT_MINIPLAYER" = "Cho phép sử dụng trình phát thu nhỏ với mọi video";
 "YT_MINIPLAYER_DESC" = "Ví dụ: Video cho trẻ em.";
+
+"STOCK_VOLUME_HUD" = "Sử dụng thanh âm lượng mặc định của iOS";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Tùy chọn hiển thị trong trình phát video";
@@ -76,6 +82,9 @@
 
 "HIDE_SUPER_THANKS" = "Ẩn biểu ngữ 'Mua ảnh động Super Thanks'";
 "HIDE_SUPER_THANKS_DESC" = "Ẩn biểu ngữ 'Mua ảnh động Super Thanks'.";
+
+"HIDE_SUBCRIPTIONS" = "Ẩn nút Đăng ký kênh";
+"HIDE_SUBCRIPTIONS_DESC" = "Ẩn nút Đăng ký kênh khi tạm dừng Shorts.";
 
 "DISABLE_RESUME_TO_SHORTS" = "Tắt tính năng tự động tiếp tục Shorts";
 "DISABLE_RESUME_TO_SHORTS_DESC" = "Nếu bạn thoát YouTube trong khi đang xem video Shorts, video Shorts đó sẽ không tự động phát khi bạn mở lại YouTube.";

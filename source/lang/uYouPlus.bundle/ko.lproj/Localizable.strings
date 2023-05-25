@@ -8,6 +8,9 @@
 "AUTO_FULLSCREEN" = "자동 전체화면 재생 (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "자동으로 전체화면에서 재생합니다.";
 
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "두번 탭하여 탐색 사용하지 않음";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
 "SNAP_TO_CHAPTER" = "챕터 스냅 사용하지 않음";
 "SNAP_TO_CHAPTER_DESC" = "비디오 탐색시 챕터표시에 스냅되는 기능을 끕니다. 앱을 다시 시작해야 합니다.";
 
@@ -16,6 +19,9 @@
 
 "YT_MINIPLAYER" = "모든 YouTube 영상에서 미니 플레이어 활성화";
 "YT_MINIPLAYER_DESC" = "유튜브 키즈의 영상 같은 경우.";
+
+"STOCK_VOLUME_HUD" = "iOS 기본 음량 표시기 사용";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "비디오 재생 오버레이 설정";
@@ -71,8 +77,11 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "Shorts 영상 공유 버튼 숨기기";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "uYou 버튼 숨기기";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Shorts에서 uYou의 다운로드 버튼을 숨깁니다.";
+
+"HIDE_SUBCRIPTIONS" = "구독 버튼 숨기기";
+"HIDE_SUBCRIPTIONS_DESC" = "일시 정지 할 때 보이는 구독 버튼을 숨깁니다.";
 
 "HIDE_SUPER_THANKS" = "'Super Thanks 구매' 배너 숨기기";
 "HIDE_SUPER_THANKS_DESC" = "Shorts 영상에서 'Super Thanks 구매' 배너를 숨깁니다.";
@@ -112,7 +121,7 @@
 "ENABLE_FLEX" = "FLEX 사용";
 "ENABLE_FLEX_DESC" = "디버그를 위해 FLEX를 사용하도록 설정합니다(권장하지 않음). 사용에 익숙하지 않으면 활성화하지 마십시오.";
 
-"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION" = "YouTube 시작 애니메이션을 표시합니다.";
 "ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "구글 로그인 문제 수정 (TrollStore 사용자만 해당)";

@@ -5,17 +5,23 @@
 // Video player options
 "VIDEO_PLAYER_OPTIONS" = "Video-Player-Optionen";
 
-"AUTO_FULLSCREEN" = "Automatisches Vollbild (YTAutoFullScreen)";
-"AUTO_FULLSCREEN_DESC" = "Automatisch Videos im Vollbild starten.";
+"AUTO_FULLSCREEN" = "Automatischer Vollbildmodus (YTAutoFullScreen)";
+"AUTO_FULLSCREEN_DESC" = "Automatisch Videos im Vollbildmodus starten.";
+
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Doppeltippen zum Suchen deaktivieren";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
 
 "SNAP_TO_CHAPTER" = "Zu Abschnitten springen deaktivieren";
-"SNAP_TO_CHAPTER_DESC" = "Deaktiviere das automatische springen zu Abschnitten Disable bei der Suche in Videos. App-Neustart erforderlich.";
+"SNAP_TO_CHAPTER_DESC" = "Deaktiviere das automatische Springen zu Abschnitten bei der Suche in Videos. App-Neustart erforderlich.";
 
 "PINCH_TO_ZOOM" = "Ziehen zum Zoomen deaktivieren";
 "PINCH_TO_ZOOM_DESC" = "App-Neustart erforderlich.";
 
 "YT_MINIPLAYER" = "Miniplayer für alle YouTube-Videos aktivieren";
 "YT_MINIPLAYER_DESC" = "z.B. bei Videos für Kinder.";
+
+"STOCK_VOLUME_HUD" = "Standard iOS Lautstärke HUD aktivieren";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Optionen";
@@ -47,7 +53,7 @@
 "HIDE_RIGHT_PANEL" = "Ausblenden des rechten Bedienfelds im Vollbildmodus";
 "HIDE_RIGHT_PANEL_DESC" = "App-Neustart erforderlich.";
 
-"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR" = "Roter Fortschrittsbalken";
 "RED_PROGRESS_BAR_DESC" = "Bringen Sie den roten Fortschrittsbalken zurück. App-Neustart erforderlich.";
 
 "DONT_EAT_MY_CONTENT" = "Kerbe/dynamische Insel bei 2:1-Videoinhalten berücksichtigen (DontEatMyContent)";
@@ -56,29 +62,32 @@
 // Shorts controls overlay options
 "SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay-Optionen";
 
-"HIDE_SHORTS_CHANNEL_AVATAR" = "Avatar des Shorts-Kanals ausblenden";
+"HIDE_SHORTS_CHANNEL_AVATAR" = "\"Avatar\" des Short-Kanals ausblenden";
 "HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
 
-"HIDE_SHORTS_DISLIKE_BUTTON" = "Shorts-Dislike-Schaltfläche ausblenden";
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Shorts-Schaltfläche \"Dislike\" ausblenden";
 "HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_COMMENT_BUTTON" = "Schaltfläche Shorts-Kommentare ausblenden";
+"HIDE_SHORTS_COMMENT_BUTTON" = "Shorts Schaltfläche \"Kommentare\" ausblenden";
 "HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_REMIX_BUTTON" = "Shorts-Remix-Schaltfläche ausblenden";
+"HIDE_SHORTS_REMIX_BUTTON" = "Shorts-Schaltfläche \"Remix\" ausblenden";
 "HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_SHARE_BUTTON" = "Schaltfläche "Shorts teilen" ausblenden";
+"HIDE_SHORTS_SHARE_BUTTON" = "Shorts-Schaltfläche \"Teilen\" ausblenden";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "uYou Schaltflächen ausblenden";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Die Download-Schaltflächen von uYou bei Shorts ausblenden.";
+
+"HIDE_SUBCRIPTIONS" = "Schaltfläche \"Abos\" ausblenden";
+"HIDE_SUBCRIPTIONS_DESC" = "Ausblenden der Schaltfläche \"Abos\", die beim Anhalten angezeigt wird.";
 
 "HIDE_SUPER_THANKS" = "'Buy Super Thanks'-Banner ausblenden";
-"HIDE_SUPER_THANKS_DESC" = "Ausblenden des "Buy Super Thanks'"-Banners in bestimmten Shorts.";
+"HIDE_SUPER_THANKS_DESC" = "Ausblenden des \"Buy Super Thanks\"-Banners in bestimmten Shorts.";
 
 "DISABLE_RESUME_TO_SHORTS" = "Fortsetzen nach Shorts deaktivieren";
-"DISABLE_RESUME_TO_SHORTS_DESC" = "Wenn du YouTube beendest, während du Shorts ansiehst, werden Shorts beim nächsten Start von YouTube nicht automatisch abgespielt.";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "Wenn Sie YouTube beenden, während Sie Shorts ansehen, werden Shorts beim nächsten Start von YouTube nicht automatisch abgespielt.";
 
 // Theme
 "THEME_OPTIONS" = "Theme Optionen";
@@ -110,9 +119,9 @@
 "DISABLE_HINTS_DESC" = "Deaktiviere Hinweise von YouTube, welche normalerweise erscheinen, sobald die App neu installiert wurde.";
 
 "ENABLE_FLEX" = "Aktiviere FLEX";
-"ENABLE_FLEX_DESC" = "Aktiviere FLEX für debugging (nicht empfohlen). Deaktiviert lassen es sei denn, du weißt, was du tust.";
+"ENABLE_FLEX_DESC" = "Aktiviere FLEX für debugging (nicht empfohlen). Deaktiviert lassen, es sei denn, Sie wissen, was Sie tuen.";
 
-"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION" = "Aktivieren der YouTube-Startanimation";
 "ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "Google-Anmeldung reparieren (nur für TrollStore-Benutzer!)";

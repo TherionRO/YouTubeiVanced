@@ -8,6 +8,9 @@
 "AUTO_FULLSCREEN" = "Tela cheia automática (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Reproduz videos em tela cheia automaticamente.";
 
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Desativar toque duplo para buscar";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
 "SNAP_TO_CHAPTER" = "Desativar ajuste ao capítulo";
 "SNAP_TO_CHAPTER_DESC" = "Desativa o ajuste automático ao capítulo ao buscar no vídeo. A reinicialização do app é necessária.";
 
@@ -16,6 +19,9 @@
 
 "YT_MINIPLAYER" = "Ative o Miniplayer para todos os vídeos do YouTube";
 "YT_MINIPLAYER_DESC" = "Vídeos infantis, por exemplo.";
+
+"STOCK_VOLUME_HUD" = "Usar o HUD de volume padrão do iOS";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Opções de Sobreposição de Controles de Vídeo";
@@ -71,8 +77,11 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "Ocultar o botão de compartilhamento do Shorts";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's download buttons in Shorts";
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Ocultar os botões do uYou";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Oculta os botões de download do uYou nos Shorts";
+
+"HIDE_SUBCRIPTIONS" = "Ocultar o botão Inscrições";
+"HIDE_SUBCRIPTIONS_DESC" = "Oculta o botão Inscrições que aparece quando pausado.";
 
 "HIDE_SUPER_THANKS" = "Ocultar o banner 'Comprar Valeu Demais'";
 "HIDE_SUPER_THANKS_DESC" = "Oculta o banner 'Comprar Valeu Demais' nos Shorts.";
@@ -109,11 +118,11 @@
 "DISABLE_HINTS" = "Desativar dicas";
 "DISABLE_HINTS_DESC" = "Desativa as dicas de recursos do YouTube que geralmente são exibidas quando o aplicativo é instalado recentemente.";
 
-"ENABLE_FLEX" = "Enable FLEX";
-"ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
+"ENABLE_FLEX" = "Ativar FLEX";
+"ENABLE_FLEX_DESC" = "Ativa o FLEX para depuração (não recomendado). Deixe isso desligado, a menos que você saiba o que está fazendo.";
 
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+"ENABLE_YT_STARTUP_ANIMATION" = "Ativar animação de inicialização do YouTube";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "Corrigir o login do Google (somente para usuários da TrollStore)";
 "FIX_GOOGLE_SIGNIN_DESC" = "Ative esta opção somente quando você não conseguir fazer login com sua conta do Google e o aplicativo foi instalado via TrollStore. Se você conseguir fazer login normalmente, mantenha-o desativado. A reinicialização do app é necessária.";
@@ -127,5 +136,5 @@
 "YT_RE_EXPLORE" = "Substituir a guia Shorts pela guia Explorar (YTReExplore)";
 "YT_RE_EXPLORE_DESC" = "A reinicialização do app é necessária.";
 
-"IPHONE_LAYOUT" = "iPhone Layout";
-"IPHONE_LAYOUT_DESC" = "Toggle to use the iPhone Layout. App restart is required.";
+"IPHONE_LAYOUT" = "Layout do iPhone";
+"IPHONE_LAYOUT_DESC" = "Alterne para usar o Layout do iPhone. A reinicialização do app é necessária.";

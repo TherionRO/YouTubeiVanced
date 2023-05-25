@@ -20,8 +20,11 @@ https://github.com/PoomSmart/Return-YouTube-Dislikes/tree/main/layout/Library/Ap
 // Video player options
 "VIDEO_PLAYER_OPTIONS" = "Video Player Options";
 
-"AUTO_FULLSCREEN" = "Auto Full Screen (YTAutoFullScreen)";
+"AUTO_FULLSCREEN" = "Auto full screen (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Autoplay videos at full screen.";
+
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Disable double tap to seek";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
 
 "SNAP_TO_CHAPTER" = "Disable snap to chapter";
 "SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking through videos. App restart is required.";
@@ -31,6 +34,9 @@ https://github.com/PoomSmart/Return-YouTube-Dislikes/tree/main/layout/Library/Ap
 
 "YT_MINIPLAYER" = "Enable the mini player for all YouTube videos";
 "YT_MINIPLAYER_DESC" = "Kid videos for example.";
+
+"STOCK_VOLUME_HUD" = "Use iOS stock volume HUD";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
@@ -47,7 +53,7 @@ https://github.com/PoomSmart/Return-YouTube-Dislikes/tree/main/layout/Library/Ap
 "HIDE_PAID_PROMOTION_CARDS" = "Hide Paid Promotion banner";
 "HIDE_PAID_PROMOTION_CARDS_DESC" = "Hide the 'Includes Paid Promotions' banner in some videos.";
 
-"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
+"HIDE_CHANNEL_WATERMARK" = "Hide channel watermark";
 "HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
 
 "HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Hide Previous and Next button";
@@ -65,7 +71,7 @@ https://github.com/PoomSmart/Return-YouTube-Dislikes/tree/main/layout/Library/Ap
 "RED_PROGRESS_BAR" = "Red progress bar";
 "RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
 
-"DONT_EAT_MY_CONTENT" = "Prevent Notch/Island on 2:1 Video Content (DontEatMyContent)";
+"DONT_EAT_MY_CONTENT" = "Prevent Notch/Island on 2:1 video content (DontEatMyContent)";
 "DONT_EAT_MY_CONTENT_DESC" = "Prevent the notch/Dynamic Island from munching on 2:1 video content in YouTube. App restart is required.";
 
 // Shorts controls overlay options
@@ -88,6 +94,9 @@ https://github.com/PoomSmart/Return-YouTube-Dislikes/tree/main/layout/Library/Ap
 
 "HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
 "HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+
+"HIDE_SUBCRIPTIONS" = "Hide Subscriptions button";
+"HIDE_SUBCRIPTIONS_DESC" = "Hide Subscriptions button which shows up when paused.";
 
 "HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
 "HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";

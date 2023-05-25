@@ -8,6 +8,9 @@
 "AUTO_FULLSCREEN" = "Plein écran automatique (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Lecture automatique des vidéos en plein écran";
 
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Désactiver le double tap pour chercher";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
 "SNAP_TO_CHAPTER" = "Désactiver l'alignement sur les chapitres";
 "SNAP_TO_CHAPTER_DESC" = "Désactiver l'alignement automatique sur les chapitres lors de la recherche dans les vidéos. Un redémarrage de l'application est nécessaire.";
 
@@ -16,6 +19,9 @@
 
 "YT_MINIPLAYER" = "Activer le mini-lecteur pour toutes les vidéos YouTube";
 "YT_MINIPLAYER_DESC" = "Vidéos pour enfants par exemple";
+
+"STOCK_VOLUME_HUD" = "Utiliser l'affichage iOS du volume par défaut";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Options de superposition des contrôles vidéo";
@@ -71,8 +77,11 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "Masquer le bouton de partage de Shorts";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Masquer les boutons uYou";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Masque les boutons de téléchargement uYou dans les Shorts.";
+
+"HIDE_SUBCRIPTIONS" = "Masquer le bouton Abonnements";
+"HIDE_SUBCRIPTIONS_DESC" = "Masque le bouton Abonnements qui apparaît lors de la pause.";
 
 "HIDE_SUPER_THANKS" = "Masquer la bannière 'Acheter des Super Thanks'";
 "HIDE_SUPER_THANKS_DESC" = "Masquer la bannière 'Acheter des Super Thanks' dans les Shorts.";
@@ -112,7 +121,7 @@
 "ENABLE_FLEX" = "Activer FLEX";
 "ENABLE_FLEX_DESC" = "Activer FLEX pour déboguer (non recommandé). Laissez-le désactivé à moins que vous sachiez ce que vous faites.";
 
-"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION" = "Activer l'animation de démarrage de YouTube";
 "ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "Réparer l'identification Google (pour les utilisateurs de TrollStore uniquement)";

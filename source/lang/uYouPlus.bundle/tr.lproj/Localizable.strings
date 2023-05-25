@@ -1,24 +1,27 @@
 // Settings
 "VERSION" = "uYouPlus'ın sürümü: %@";
-"VERSION_CHECK" = "Güncellemeyi kontrol etmek için dokunun!";
+"VERSION_CHECK" = "Güncellemeyi kontrol etmek için dokun!";
 
 // Video player options
-"VIDEO_PLAYER_OPTIONS" = "Video Player Options";
+"VIDEO_PLAYER_OPTIONS" = "Video Oynatıcı Seçenekleri";
 
 "AUTO_FULLSCREEN" = "Otomatik Tam Ekran (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Videoları otomatik olarak tam ekranda oynatır.";
 
-"SNAP_TO_CHAPTER" = "Disable snap to chapter";
-"SNAP_TO_CHAPTER_DESC" = "Disable auto snap to chapter when seeking videos. App restart is required.";
+"SNAP_TO_CHAPTER" = "Bölüme geçişi devre dışı bırak";
+"SNAP_TO_CHAPTER_DESC" = "Video ararken otomatik olarak bölüme geçmeyi devre dışı bırakır. Uygulamanın yeniden başlatılması gerekir.";
 
-"PINCH_TO_ZOOM" = "Disable pinch to zoom";
-"PINCH_TO_ZOOM_DESC" = "App restart is required.";
+"PINCH_TO_ZOOM" = "Yakınlaştırmak için sıkıştırmayı devre dışı bırak";
+"PINCH_TO_ZOOM_DESC" = "Uygulamanın yeniden başlatılması gerekir.";
 
-"YT_MINIPLAYER" = "Tüm YouTube videoları için Mini Oynatıcıyı etkinleştirin";
+"YT_MINIPLAYER" = "Tüm YouTube videoları için Mini Oynatıcıyı etkinleştir";
 "YT_MINIPLAYER_DESC" = "Örneğin çocuk videoları.";
 
+"STOCK_VOLUME_HUD" = "Mevcut iOS baş yukarı göstergesi(HUD) alanını kullan";
+"STOCK_VOLUME_HUD_DESC" = "";
+
 // Video controls overlay options
-"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Kontrolleri Kaplaması Seçenekleri";
 
 "HIDE_AUTOPLAY_SWITCH" = "Otomatik oynatma anahtarını gizle";
 "HIDE_AUTOPLAY_SWITCH_DESC" = "Otomatik oynat anahtarını video kontrolleri katmanından gizler.";
@@ -32,94 +35,97 @@
 "HIDE_PAID_PROMOTION_CARDS" = "Ücretli Promosyon afişini gizle";
 "HIDE_PAID_PROMOTION_CARDS_DESC" = "Bazı videolarda 'Ücretli Promosyonları İçerir' afişini gizler.";
 
-"HIDE_CHANNEL_WATERMARK" = "Hide Channel Watermark";
-"HIDE_CHANNEL_WATERMARK_DESC" = "Hide channel's watermark in video controls overlay. App restart is required.";
+"HIDE_CHANNEL_WATERMARK" = "Kanal Filigranını Gizle";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Video kontrolleri yer paylaşımında kanalın filigranını gizle. Uygulamanın yeniden başlatılması gerekir.";
 
 "HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Önceki ve Sonraki düğmelerini gizle";
 "HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Video kontrolleri katmanında Önceki ve Sonraki düğmelerini gizler.";
 
 "REPLACE_PREVIOUS_NEXT_BUTTON" = "Önceki ve Sonraki Düğmelerini Değiştir";
-"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Önceki ve Sonraki Düğmelerini Hızlı ileri ve Geri Sar düğmeleriyle değiştirin. Uygulamanın yeniden başlatılması gerekir.";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Önceki ve Sonraki Düğmelerini Hızlı ileri ve Geri Sar düğmeleriyle değiştir. Uygulamanın yeniden başlatılması gerekir.";
 
 "HIDE_HOVER_CARD" = "Bitiş ekranlarının üzerine gelen kartları gizle.(YTNoHoverCards)";
 "HIDE_HOVER_CARD_DESC" = "Videoların sonundaki içerik oluşturucu bitiş ekranlarını (küçük resimler) gizler.";
 
-"HIDE_RIGHT_PANEL" = "Hide the right panel in fullscreen mode";
-"HIDE_RIGHT_PANEL_DESC" = "App restart is required.";
+"HIDE_RIGHT_PANEL" = "Tam ekran modunda sağ paneli gizle";
+"HIDE_RIGHT_PANEL_DESC" = "Uygulamanın yeniden başlatılması gerekir.";
 
-"RED_PROGRESS_BAR" = "Red progress bar";
-"RED_PROGRESS_BAR_DESC" = "Bring back the red progress bar. App restart is required.";
+"RED_PROGRESS_BAR" = "Kırmızı ilerleme çubuğu";
+"RED_PROGRESS_BAR_DESC" = "Kırmızı ilerleme çubuğunu geri getirir. Uygulamanın yeniden başlatılması gerekir.";
 
 "DONT_EAT_MY_CONTENT" = "2:1 Video İçeriğinde Çentik/Ada Önleme (DontEatMyContent)";
-"DONT_EAT_MY_CONTENT_DESC" = "Çentik/Dinamik Ada'nın YouTube'daki 2:1 video içeriğini yemesini önleyin. Uygulamanın yeniden başlatılması gerekir.";
+"DONT_EAT_MY_CONTENT_DESC" = "Çentik/Dinamik Ada'nın YouTube'daki 2:1 video içeriğini yemesini önle. Uygulamanın yeniden başlatılması gerekir.";
 
 // Shorts controls overlay options
-"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Controls Overlay Options";
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts Kontroller Kaplama Seçenekleri";
 
-"HIDE_SHORTS_CHANNEL_AVATAR" = "Hide Shorts channel's avatar";
+"HIDE_SHORTS_CHANNEL_AVATAR" = "Shorts kanalının avatarını gizle";
 "HIDE_SHORTS_CHANNEL_AVATAR_DESC" = "";
 
-"HIDE_SHORTS_DISLIKE_BUTTON" = "Hide Shorts dislike button";
+"HIDE_SHORTS_DISLIKE_BUTTON" = "Shorts beğenmeme düğmesini gizle";
 "HIDE_SHORTS_DISLIKE_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_COMMENT_BUTTON" = "Hide Shorts comment button";
+"HIDE_SHORTS_COMMENT_BUTTON" = "Shorts yorum düğmesini gizle";
 "HIDE_SHORTS_COMMENT_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_REMIX_BUTTON" = "Hide Shorts remix button";
+"HIDE_SHORTS_REMIX_BUTTON" = "Shorts remix düğmesini gizle";
 "HIDE_SHORTS_REMIX_BUTTON_DESC" = "";
 
-"HIDE_SHORTS_SHARE_BUTTON" = "Hide Shorts share button";
+"HIDE_SHORTS_SHARE_BUTTON" = "Shorts paylaşım düğmesini gizle";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "uYou'nun düğmelerini gizle";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Shorts'ta uYou'nun indirme düğmelerini gizle.";
 
-"HIDE_SUPER_THANKS" = "Hide 'Buy Super Thanks' banner";
-"HIDE_SUPER_THANKS_DESC" = "Hide the 'Buy Super Thanks' banner in Shorts.";
+"HIDE_SUBCRIPTIONS" = "Abonelikler düğmesini gizle ";
+"HIDE_SUBCRIPTIONS_DESC" = "Duraklatıldığında görünen Abonelikler düğmesini gizle .";
 
-"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
-"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, Shorts won‘t automatically play next time you launch YouTube.";
+"HIDE_SUPER_THANKS" = "\"Süper Teşekkür Satın Alın\" afişini gizle";
+"HIDE_SUPER_THANKS_DESC" = "Shorts'ta \"Süper Teşekkür Satın Alın\" afişini gizle.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Shorts'ta kaldığı yerden devam etmeyi devre dışı bırak";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "Shorts izlerken YouTube'u kapatırsan Shorts, YouTube'u bir sonraki açışında otomatik olarak oynatılmaz.";
 
 // Theme
-"THEME_OPTIONS" = "Theme Options";
+"THEME_OPTIONS" = "Tema ayarları";
 
 "OLED_DARK_THEME" = "OLED Karanlık modu (Deneysel)";
 "OLED_DARK_THEME_2" = "OLED Karanlık modu";
 "OLED_DARK_THEME_DESC" = "Bazı durumlarda düzgün çalışmayabilir. Bu seçeneği etkinleştirdikten/devre dışı bıraktıktan sonra uygulamanın yeniden başlatılması gerekir.";
 
-"OLD_DARK_THEME" = "Old dark theme";
-"OLD_DARK_THEME_DESC" = "Old YouTube's dark theme (grey theme). App restart is required.";
+"OLD_DARK_THEME" = "Eski karanlık tema";
+"OLD_DARK_THEME_DESC" = "Eski YouTube'un karanlık teması (gri tema). Uygulamanın yeniden başlatılması gerekir.";
 
-"DEFAULT_THEME" = "Default";
-"DEFAULT_THEME_DESC" = "Default dark(er) theme of YouTube. App restart is required.";
+"DEFAULT_THEME" = "Varsayılan";
+"DEFAULT_THEME_DESC" = "YouTube'un varsayılan daha karanlık teması. Uygulamanın yeniden başlatılması gerekir.";
 
 "OLED_KEYBOARD" = "OLED Klavye (Deneysel)";
 "OLED_KEYBOARD_DESC" = "Bazı durumlarda düzgün çalışmayabilir. Uygulamanın yeniden başlatılması gerekir.";
 
 // Miscellaneous
-"MISCELLANEOUS" = "Miscellaneous";
+"MISCELLANEOUS" = "Diğer";
 
-"CAST_CONFIRM" = "Yayınlamadan önce uyarıyı onaylayın (YTCastConfirm)";
+"CAST_CONFIRM" = "Yayınlamadan önce uyarıyı onayla (YTCastConfirm)";
 "CAST_CONFIRM_DESC" = "TV'nin yanlışlıkla ele geçirilmesini önlemek için yayınlamadan önce bir onay uyarısı gösterir.";
 "CASTING" = "Yayınlar";
-"MSG_ARE_YOU_SURE" = "Yayınlamaya başlamak istediğinizden emin misiniz?";
+"MSG_ARE_YOU_SURE" = "Yayınlamaya başlamak istediğinden emin misin?";
 "MSG_YES" = "Evet";
 "MSG_CANCEL" = "İptal";
 
-"DISABLE_HINTS" = "Disable hints";
-"DISABLE_HINTS_DESC" = "Disable feature hints from YouTube that usually display when the app is freshly installed.";
+"DISABLE_HINTS" = "İpuçlarını devre dışı bırak";
+"DISABLE_HINTS_DESC" = "Genellikle uygulama yeni yüklendiğinde görüntülenen YouTube'dan özellik ipuçlarını devre dışı bırak.";
 
-"ENABLE_FLEX" = "Enable FLEX";
-"ENABLE_FLEX_DESC" = "Enable FLEX for debugging (not recommended). Leave this off unless you know what you are doing.";
+"ENABLE_FLEX" = "FLEX'i etkinleştir";
+"ENABLE_FLEX_DESC" = "Hata ayıklama için FLEX'i etkinleştir (önerilmez). Ne yaptığını bilmiyorsan bunu kapalı bırak.";
 
-"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION" = "YouTube başlangıç animasyonunu etkinleştir";
 "ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "Google Oturumu Açma'yı düzeltin (yalnızca TrollStore kullanıcıları için)";
-"FIX_GOOGLE_SIGNIN_DESC" = "Bu seçeneği yalnızca Google hesabınızla oturum açamadığınızda ve uygulama TrollStore aracılığıyla yüklendiyse açın. Normal olarak giriş yapabiliyorsanız, devre dışı bırakın. Uygulamanın yeniden başlatılması gerekir.";
+"FIX_GOOGLE_SIGNIN_DESC" = "Bu seçeneği yalnızca Google hesabınızla oturum açamadığınızda ve uygulama TrollStore aracılığıyla yüklendiyse aç. Normal olarak giriş yapabiliyorsan, devre dışı bırak. Uygulamanın yeniden başlatılması gerekir.";
 
-"HIDE_CHIP_BAR" = "Hide the Upper bar";
-"HIDE_CHIP_BAR_DESC" = "Hide Upper bar in the Home feeds (Trends, Music, Gaming...) and Subcription feeds (All videos, Continue watching...). App restart is required.";
+"HIDE_CHIP_BAR" = "Üst çubuğu gizle";
+"HIDE_CHIP_BAR_DESC" = "Ana Sayfa akışlarında (Trendler, Müzik, Oyun...) ve Abonelik akışlarında (Tüm videolar, İzlemeye devam et...) Üst çubuğu gizle. Uygulamanın yeniden başlatılması gerekir.";
 
 "NEW_MINIPLAYER_STYLE" = "Yeni mini oynatıcı bar stili. (BigYTMiniPlayer)";
 "NEW_MINIPLAYER_STYLE_DESC" = "Uygulamanın yeniden başlatılması gerekir.";
@@ -127,5 +133,5 @@
 "YT_RE_EXPLORE" = "Shorts sekmesini Keşfet sekmesiyle değiştirin (YTReExplore)";
 "YT_RE_EXPLORE_DESC" = "Uygulamanın yeniden başlatılması gerekir.";
 
-"IPHONE_LAYOUT" = "iPhone Layout";
-"IPHONE_LAYOUT_DESC" = "Toggle to use the iPhone Layout. App restart is required.";
+"IPHONE_LAYOUT" = "iPhone Düzeni";
+"IPHONE_LAYOUT_DESC" = "iPhone Düzenini kullanmak istersen etkinleştir. Uygulamanın yeniden başlatılması gerekir.";

@@ -1,11 +1,33 @@
 #import "Tweaks/YouTubeHeader/YTAppDelegate.h"
 #import "Tweaks/YouTubeHeader/YTPlayerViewController.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+#import <dlfcn.h>
+#import <sys/utsname.h>
+#import <substrate.h>
+#import <rootless.h>
+#import "Tweaks/YouTubeHeader/YTVideoQualitySwitchOriginalController.h"
+#import "Tweaks/YouTubeHeader/YTPlayerViewController.h"
+#import "Tweaks/YouTubeHeader/YTWatchController.h"
+#import "Tweaks/YouTubeHeader/YTIGuideResponse.h"
+#import "Tweaks/YouTubeHeader/YTIGuideResponseSupportedRenderers.h"
+#import "Tweaks/YouTubeHeader/YTIPivotBarSupportedRenderers.h"
+#import "Tweaks/YouTubeHeader/YTIPivotBarRenderer.h"
+#import "Tweaks/YouTubeHeader/YTIBrowseRequest.h"
+#import "Tweaks/YouTubeHeader/YTCommonColorPalette.h"
+#import "Tweaks/YouTubeHeader/ASCollectionView.h"
+#import "Tweaks/YouTubeHeader/YTPlayerOverlay.h"
+#import "Tweaks/YouTubeHeader/YTPlayerOverlayProvider.h"
+#import "Tweaks/YouTubeHeader/YTReelWatchPlaybackOverlayView.h"
+#import "Tweaks/YouTubeHeader/YTReelPlayerBottomButton.h"
+#import "Tweaks/YouTubeHeader/YTReelPlayerViewController.h"
+#import "Tweaks/YouTubeHeader/YTAlertView.h"
+#import "Tweaks/YouTubeHeader/YTISectionListRenderer.h"
 
 #define LOC(x) [tweakBundle localizedStringForKey:x value:nil table:nil]
 #define YT_BUNDLE_ID @"com.google.ios.youtube"
 #define YT_NAME @"YouTube"
-#define DEMC_UNSUPPORTED_DEVICES @[@"iPhone14,3", @"iPhone14,6", @"iPhone14,8"] // DontEatMycontent
-#define DEMC_THRESHOLD 1.99 // DontEatMycontent
 #define DEFAULT_RATE 2.0f // YTSpeed
 
 // IAmYouTube
@@ -50,36 +72,6 @@
 
 @interface YTPlaylistHeaderViewController: UIViewController
 @property UIButton *downloadsButton;
-@end
-
-// DontEatMyContent
-BOOL DEMC_deviceIsSupported();
-void DEMC_activate();
-void DEMC_deactivate(); 
-void DEMC_centerRenderingView();
-
-@interface YTPlayerView : UIView
-- (id)renderingView;
-@end
-
-@interface YTMainAppVideoPlayerOverlayViewController : UIViewController
-- (BOOL)isFullscreen;
-@end
-
-@interface HAMSBDLSampleBufferRenderingView : UIView
-@end
-
-@interface MLHAMSBDLSampleBufferRenderingView : HAMSBDLSampleBufferRenderingView
-@end
-
-@interface YTMainAppEngagementPanelViewController : UIViewController
-- (BOOL)isLandscapeEngagementPanel;
-- (BOOL)isPeekingSupported;
-@end
-
-@interface YTEngagementPanelContainerViewController : UIViewController
-- (BOOL)isLandscapeEngagementPanel;
-- (BOOL)isPeekingSupported;
 @end
 
 // YTSpeed

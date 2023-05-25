@@ -1,5 +1,5 @@
 // Settings
-"VERSION" = "当前 uYouPlus 插件版本：%@";
+"VERSION" = "当前 uYouPlus 版本：%@";
 "VERSION_CHECK" = "点击此处前往 GitHub 查看最新版本信息！";
 
 // Video player options
@@ -7,6 +7,9 @@
 
 "AUTO_FULLSCREEN" = "自动全屏 （YTAutoFullScreen）";
 "AUTO_FULLSCREEN_DESC" = "自动全屏播放视频。";
+
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "禁用双击快进和快退";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
 
 "SNAP_TO_CHAPTER" = "禁用进度条章节吸附";
 "SNAP_TO_CHAPTER_DESC" = "禁用进度条在手动移动时自动吸附至章节分隔处的行为。更改本设置后需要重启 App。";
@@ -16,6 +19,9 @@
 
 "YT_MINIPLAYER" = "为所有 YouTube 视频启用迷你播放器";
 "YT_MINIPLAYER_DESC" = "例如：面向儿童的视频。";
+
+"STOCK_VOLUME_HUD" = "使用 iOS 自带音量指示";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "视频播放器控制界面选项";
@@ -51,7 +57,7 @@
 "RED_PROGRESS_BAR_DESC" = "将新版本中的白色进度条还原为红色。更改本设置后需要重启 App。";
 
 "DONT_EAT_MY_CONTENT" = "2:1 视频刘海屏/灵动岛优化 （DontEatMyContent）";
-"DONT_EAT_MY_CONTENT_DESC" = "改进部分机型的刘海区域或灵动岛在 2:1 比例视频中引发的遮挡问题（如缺口）。更改本设置后需要重启 App。";
+"DONT_EAT_MY_CONTENT_DESC" = "改进部分机型的刘海区域或灵动岛在 2:1 比例视频中引发的遮挡问题。更改本设置后需要重启 App。";
 
 // Shorts controls overlay options
 "SHORTS_CONTROLS_OVERLAY_OPTIONS" = "Shorts 短片播放器选项";
@@ -71,13 +77,16 @@
 "HIDE_SHORTS_SHARE_BUTTON" = "隐藏分享按钮";
 "HIDE_SHORTS_SHARE_BUTTON_DESC" = "";
 
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Hide uYou's buttons";
-"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Hide uYou's download buttons in Shorts.";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "隐藏 uYou 下载按钮";
+"HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "隐藏 Shorts 短片播放器中的 uYou 下载按钮。";
+
+"HIDE_SUBCRIPTIONS" = "隐藏订阅按钮";
+"HIDE_SUBCRIPTIONS_DESC" = "隐藏在暂停时出现的订阅按钮。";
 
 "HIDE_SUPER_THANKS" = "隐藏“购买超级感谢”横幅";
 "HIDE_SUPER_THANKS_DESC" = "隐藏出现在部分 Shorts 短片中的“购买超级感谢”横幅。";
 
-"DISABLE_RESUME_TO_SHORTS" = "禁用重启后恢复至 Shorts 短片";
+"DISABLE_RESUME_TO_SHORTS" = "应用重启后不恢复至 Shorts 短片";
 "DISABLE_RESUME_TO_SHORTS_DESC" = "若您在观看 Shorts 短片时关闭了 YouTube，下次启动时将不再自动进入 Shorts 短片分区。";
 
 // Theme
@@ -112,14 +121,14 @@
 "ENABLE_FLEX" = "启用 FLEX";
 "ENABLE_FLEX_DESC" = "启用 FLEX 调试程序（不推荐）。如果您不熟悉本设置的效果，请将其禁用。";
 
-"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION" = "播放启动动画";
 "ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
 
 "FIX_GOOGLE_SIGNIN" = "修复 Google 账号登录问题（仅 TrollStore 用户有效）";
 "FIX_GOOGLE_SIGNIN_DESC" = "仅在使用 TrollStore 安装本 App 的情况下生效：启用本设置后即可正常登录您的 Google 账号。更改本设置后需要重启 App。";
 
 "HIDE_CHIP_BAR" = "隐藏顶部标签栏";
-"HIDE_CHIP_BAR_DESC" = "隐藏首页和订阅内容页顶部的标签栏（例如：首页顶部的“音乐”、“游戏”、“新闻”等以及订阅内容页顶部的“今天”、“继续观看”、“未观看”等）。更改本设置后需要重启 App。";
+"HIDE_CHIP_BAR_DESC" = "隐藏首页和订阅内容页顶部的标签栏（例如：首页顶部的“音乐”、“游戏”、“新闻”以及订阅内容页顶部的“今天”、“继续观看”、“未观看”等）。更改本设置后需要重启 App。";
 
 "NEW_MINIPLAYER_STYLE" = "新迷你播放器风格 （BigYTMiniPlayer）";
 "NEW_MINIPLAYER_STYLE_DESC" = "更改本设置后需要重启 App。";
@@ -128,4 +137,4 @@
 "YT_RE_EXPLORE_DESC" = "更改本设置后需要重启 App。";
 
 "IPHONE_LAYOUT" = "iPhone 视图";
-"IPHONE_LAYOUT_DESC" = "在 iPad 上使用 iPhone 版本的应用布局，以便访问社区贴子和短片创作功能。更改本设置后需要重启 App。";
+"IPHONE_LAYOUT_DESC" = "在 iPad 上使用 iPhone 版本的应用布局，以便查看社区贴子和使用短片创作功能。更改本设置后需要重启 App。";

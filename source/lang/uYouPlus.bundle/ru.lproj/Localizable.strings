@@ -8,6 +8,9 @@
 "AUTO_FULLSCREEN" = "Полноэкранный режим (YTAutoFullScreen)";
 "AUTO_FULLSCREEN_DESC" = "Автоматически открывает ролики в полноэкранном режиме.";
 
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Отключить двойное нажатие для перемотки";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
 "SNAP_TO_CHAPTER" = "Отключить привязку к эпизодам";
 "SNAP_TO_CHAPTER_DESC" = "Отключает автоматическую привязку к эпизодам при перемотке видео. Требуется перезапуск приложения.";
 
@@ -16,6 +19,9 @@
 
 "YT_MINIPLAYER" = "Мини-плеер для всех видео";
 "YT_MINIPLAYER_DESC" = "Принудительно активирует мини-плеер для всех видео, включая видео, предназначенное для детей.";
+
+"STOCK_VOLUME_HUD" = "Использовать стоковый слайдер грмкости iOS";
+"STOCK_VOLUME_HUD_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Параметры элементов оверлея видеоплеера";
@@ -73,6 +79,9 @@
 
 "HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON" = "Скрыть кнопки uYou";
 "HIDE_UYOU_SHORTS_DOWNLOAD_BUTTON_DESC" = "Скрывает кнопки uYou для скачивания видеороликов Shorts.";
+
+"HIDE_SUBCRIPTIONS" = "Скрыть кнопку подписок";
+"HIDE_SUBCRIPTIONS_DESC" = "Скрыть кнопку подписки, которая отображается при приостановке.";
 
 "HIDE_SUPER_THANKS" = "Скрыть баннер 'Купить суперспасибо'";
 "HIDE_SUPER_THANKS_DESC" = "Скрывает баннер 'Купить суперспасибо' в Shorts.";

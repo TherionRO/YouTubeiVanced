@@ -3,6 +3,8 @@
 # iVanced for YouTube
 iVanced for YouTube is a modded application for iPhone user with or without jailbreak.This is mainly for jailed users as we only provide .ipa files for you to sideload.iVanced will block all of the annoying ads on youtube,skip sponsorships,return the legendary dislike button,download youtube videos as MP4 or MP3(audio),customize the theme of the app and many more tweaks for free.
 
+Update : As you guys can see,this project isn't being updated fast anymore,new versions barely come out.Sadly I started working for other things in my real life,and my time is very limited.The project is not being abandoned atleast for now,but I had to make this announcement because a lot of people keeps waiting for new updates and I'm not that active on github anymore. I'm sorry for any inconveniences made.
+
 Note : iVanced for YouTube is a fork of uYou/uYouPlus based on the latest version of youtube,a rolling release with extended life support and likely more unstable.
 [iVanced Source Code here](https://github.com/qnblackcat/uYouPlus) .Keep in mind that I cannot opensource the uYou tweak and the YouTube app as this is not legal.
 

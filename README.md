@@ -46,6 +46,7 @@ You will have the option to select 4K on supported YouTube videos.Even tho iPhon
 
 # Credits
 Thanks to : Google,MiRO92,qnblackcat,CokePokes,Galactic-Dev,level3tjg,therealFoxster,JamieBerghmans,PoomSmart,HASHBANG Productions for creating such great apps and tweaks for the community.Please show your support to all of them.
+This project is not supported by Google.
 
 # How to use iVanced
 

@@ -1,0 +1,137 @@
+// About
+"ABOUT" = "About";
+
+"VERSION" = "uYouPlus 버전: %@";
+"VERSION_CHECK" = "업데이트를 확인하려면 탭하세요!";
+
+"REPORT_AN_ISSUE" = "Report an issue";
+"ADD_TITLE" = "Add your title here...";
+
+"QUIT_YOUTUBE" = "Quit YouTube";
+
+"RESTART_YOUTUBE" = "Restart YouTube to apply changes";
+
+// App appearance
+"APP_THEME" = "🎨 App appearance";
+"THEME_OPTIONS" = "테마 설정";
+
+"DARK_THEME" = "Dark theme";
+
+"DEFAULT_THEME" = "기본";
+"DEFAULT_THEME_DESC" = "YouTube 기본 다크 모드. 앱을 다시 시작해야 합니다.";
+
+"OLD_DARK_THEME" = "이전 다크 모드 테마";
+"OLD_DARK_THEME_DESC" = "이전 YouTube 다크 모드 (회색 테마). 앱을 다시 시작해야 합니다.";
+
+"OLED_DARK_THEME" = "OLED 다크모드 (실험실)";
+"OLED_DARK_THEME_2" = "OLED 다크모드";
+"OLED_DARK_THEME_DESC" = "몇몇 경우 제대로 동작하지 않을 수도 있습니다. 이 기능을 켜거나 끄는 경우 앱을 다시 시작해야 합니다.";
+
+"OLED_KEYBOARD" = "OLED 키보드 (실험실)";
+"OLED_KEYBOARD_DESC" = "몇몇 경우 제대로 동작하지 않을 수도 있습니다. 앱을 다시 시작해야 합니다.";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "⏯️ 비디오 재생 설정";
+
+"SLIDE_TO_SEEK" = "Enable Slide to seek";
+"SLIDE_TO_SEEK_DESC" = "Bring back the Slide to seek gesture.";
+
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "두번 탭하여 탐색 사용하지 않음";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
+"SNAP_TO_CHAPTER" = "챕터 스냅 사용하지 않음";
+"SNAP_TO_CHAPTER_DESC" = "비디오 탐색시 챕터표시에 스냅되는 기능을 끕니다. 앱을 다시 시작해야 합니다.";
+
+"PINCH_TO_ZOOM" = "핀치 투 줌 사용하지 않음";
+"PINCH_TO_ZOOM_DESC" = "앱을 다시 시작해야 합니다.";
+
+"YT_MINIPLAYER" = "모든 YouTube 영상에서 미니 플레이어 활성화";
+"YT_MINIPLAYER_DESC" = "유튜브 키즈의 영상 같은 경우.";
+
+"STOCK_VOLUME_HUD" = "iOS 기본 음량 표시기 사용";
+"STOCK_VOLUME_HUD_DESC" = "";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "📹 비디오 재생 오버레이 설정";
+
+"HIDE_AUTOPLAY_SWITCH" = "자동재생 스위치 숨기기";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "비디오 재생 오버레이에서 자동재생 스위치를 숨깁니다.";
+
+"HIDE_SUBTITLES_BUTTON" = "자막 버튼 숨기기";
+"HIDE_SUBTITLES_BUTTON_DESC" = "비디오 재생 오버레이에서 자막 버튼을 숨깁니다.";
+
+"HIDE_HUD_MESSAGES" = "화면 메시지 숨기기";
+"HIDE_HUD_MESSAGES_DESC" = "예: 자막 사용 설정됨/중지됨, 반복재생 설정됨,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "유료 광고 배너 숨기기";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "'유료 광고 포함' 배너를 숨깁니다.";
+
+"HIDE_CHANNEL_WATERMARK" = "채널 워터마크 숨기기";
+"HIDE_CHANNEL_WATERMARK_DESC" = "비디오 재생 오버레이에서 채널의 워터마크를 숨깁니다. 앱을 다시 시작해야 합니다.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "이전, 다음 재생 버튼 숨기기";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "비디오 재생 오버레이에서 이전 재생, 다음 재생 버튼을 숨깁니다.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "이전, 다음 재생 버튼 교체";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "이전 재생, 다음 재생 버튼을 빨리 감기, 되감기 버튼으로 교체합니다. 앱을 다시 시작해야 합니다.";
+
+"RED_PROGRESS_BAR" = "빨간색 진행 막대";
+"RED_PROGRESS_BAR_DESC" = "영상 진행 막대의 색을 빨간색으로 되돌립니다. 앱을 다시 시작해야 합니다.";
+
+"HIDE_HOVER_CARD" = "영상 끝 부분의 호버카드 숨기기 (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "영상의 끝 부분에서 게시자가 표시한 영상 썸네일을 숨깁니다.";
+
+"HIDE_RIGHT_PANEL" = "전체화면 모드에서 오른쪽 패널 숨기기";
+"HIDE_RIGHT_PANEL_DESC" = "앱을 다시 시작해야 합니다.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "💥 Shorts 재생 오버레이 설정";
+
+"HIDE_SUPER_THANKS" = "'Super Thanks 구매' 배너 숨기기";
+"HIDE_SUPER_THANKS_DESC" = "Shorts 영상에서 'Super Thanks 구매' 배너를 숨깁니다.";
+
+"HIDE_SUBCRIPTIONS" = "구독 버튼 숨기기";
+"HIDE_SUBCRIPTIONS_DESC" = "일시 정지 할 때 보이는 구독 버튼을 숨깁니다.";
+
+"DISABLE_RESUME_TO_SHORTS" = "Shorts 복원 사용하지 않음";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "Shorts를 시청하는 도중 앱을 닫을 때, 다시 앱을 열어도 Shorts 영상이 자동재생되지 않도록 합니다.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "🔎 기타 설정";
+
+"HIDE_UYOU" = "Hide uYou tab";
+"HIDE_ISPONSORBLOCK" = "Hide iSponsorBlock button";
+
+"CAST_CONFIRM" = "TV 전송 알림 (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "의도치 않게 TV로 영상을 전송하지 않도록 보내기 전에 확인 메시지를 표시합니다.";
+"CASTING" = "TV로 전송";
+"MSG_ARE_YOU_SURE" = "TV로 영상 전송을 시작하겠습니까?";
+"MSG_YES" = "예";
+"MSG_CANCEL" = "취소";
+
+"DISABLE_HINTS" = "힌트 표시하지 않음";
+"DISABLE_HINTS_DESC" = "앱을 새로 설치하는 경우 표시되는 앱의 몇몇 기능에 대한 설명이 표시되지 않도록 합니다.";
+
+"ENABLE_YT_STARTUP_ANIMATION" = "YouTube 시작 애니메이션을 표시합니다.";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
+
+"HIDE_CHIP_BAR" = "피드 선택 막대 숨기기";
+"HIDE_CHIP_BAR_DESC" = "앱의 홈 화면에서 맞춤 동영상(인기 급상승, 음악, 게임...)과 구독 피드(전체, 감상한 동영상...) 선택 막대를 숨깁니다. 앱을 다시 시작해야 합니다.";
+
+"HIDE_PLAY_NEXT_IN_QUEUE" = "Hide \"Play next in queue\"";
+"HIDE_PLAY_NEXT_IN_QUEUE_DESC" = "";
+
+"IPHONE_LAYOUT" = "아이폰 화면배치";
+"IPHONE_LAYOUT_DESC" = "아이폰의 화면배치를 사용하려면 선택하세요. 앱을 다시 시작해야 합니다.";
+
+"NEW_MINIPLAYER_STYLE" = "새로운 스타일의 미니 플레이어 (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "앱을 다시 시작해야 합니다.";
+
+"YT_RE_EXPLORE" = "Shorts 탭 대신 탐색 탭 보이기 (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "앱을 다시 시작해야 합니다.";
+
+"ENABLE_FLEX" = "FLEX 사용";
+"ENABLE_FLEX_DESC" = "디버그를 위해 FLEX를 사용하도록 설정합니다(권장하지 않음). 사용에 익숙하지 않으면 활성화하지 마십시오.";
+
+"FIX_GOOGLE_SIGNIN" = "구글 로그인 문제 수정 (TrollStore 사용자만 해당)";
+"FIX_GOOGLE_SIGNIN_DESC" = "TrollStore를 통해 설치된 앱에만 적용됩니다: 구글 계정으로 로그인하려면 이 설정을 켜 주세요. 앱을 다시 시작해야 합니다.";

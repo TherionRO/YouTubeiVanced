@@ -1,0 +1,137 @@
+// About
+"ABOUT" = "About";
+
+"VERSION" = "versione di uYouPlus: %@";
+"VERSION_CHECK" = "Clicca qui per cercare gli aggiornamenti!";
+
+"REPORT_AN_ISSUE" = "Report an issue";
+"ADD_TITLE" = "Add your title here...";
+
+"QUIT_YOUTUBE" = "Quit YouTube";
+
+"RESTART_YOUTUBE" = "Restart YouTube to apply changes";
+
+// App appearance
+"APP_THEME" = "🎨 App appearance";
+"THEME_OPTIONS" = "Opzioni Tema";
+
+"DARK_THEME" = "Dark theme";
+
+"DEFAULT_THEME" = "Predefinito";
+"DEFAULT_THEME_DESC" = "Tema scuro predefinito di YouTube. È richiesto il riavvio dell'app.";
+
+"OLD_DARK_THEME" = "Vecchio Tema Scuro (Sperimentale)";
+"OLD_DARK_THEME_DESC" = "Tema scuro del vecchio YouTube (tema grigio). È richiesto il riavvio dell'app.";
+
+"OLED_DARK_THEME" = "Modalità Scura OLED (Sperimentale)";
+"OLED_DARK_THEME_2" = "Modalità Scura OLED";
+"OLED_DARK_THEME_DESC" = "Potrebbe non funzionare correttamente in alcuni scenari. È richiesto un riavvio dell'app dopo aver abilitato/disabilitato questa opzione.";
+
+"OLED_KEYBOARD" = "Tastiera OLED (Sperimentale)";
+"OLED_KEYBOARD_DESC" = "Potrebbe non funzionare correttamente in alcuni scenari. È richiesto un riavvio dell'app.";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "⏯️ Opzioni Video Player";
+
+"SLIDE_TO_SEEK" = "Enable Slide to seek";
+"SLIDE_TO_SEEK_DESC" = "Bring back the Slide to seek gesture.";
+
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Disable double tap to seek";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
+"SNAP_TO_CHAPTER" = "Disabilita snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disattiva lo snap to chapter durante la ricerca nei video. È richiesto il riavvio dell'app.";
+
+"PINCH_TO_ZOOM" = "Disabilita il pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "È richiesto il riavvio dell'app.";
+
+"YT_MINIPLAYER" = "Abilita il Miniplayer su tutti i video di YouTube";
+"YT_MINIPLAYER_DESC" = "Video YouTube Kids per esempio.";
+
+"STOCK_VOLUME_HUD" = "Use iOS stock volume HUD";
+"STOCK_VOLUME_HUD_DESC" = "";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "📹 Opzioni Sovrimpressione (Overlay) Video";
+
+"HIDE_AUTOPLAY_SWITCH" = "Nascondi Interruttore Riproduzione Automatica";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Nasconde il controllo per la riproduzione automatica in sovrimpressione al video.";
+
+"HIDE_SUBTITLES_BUTTON" = "Nascondi Bottone Sottotitoli";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Nasconde il controllo per i sottotitoli in sovrimpressione al video.";
+
+"HIDE_HUD_MESSAGES" = "Nascondi messaggi in sovrimpressione";
+"HIDE_HUD_MESSAGES_DESC" = "Esempio: Sottotitoli attivati/disattivati, Ripetizione video attiva,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Nascondi i banner sponsorizzati";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "Nasconde il banner 'Include Promozioni a Pagamento' in alcuni video.";
+
+"HIDE_CHANNEL_WATERMARK" = "Nascondi il Watermark del Canale";
+"HIDE_CHANNEL_WATERMARK_DESC" = "Nascondi il Watermark del Canale in sovrimpressione al video. È richiesto un riavvio dell'app.";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Nascondi i bottoni Precedente e Successivo";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Nasconde i bottoni Precedente e Successivo dai controlli in sovrimpressione al video.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Sostituisci i Bottoni Precedente e Successivo";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Sostituisci i Bottoni Precedente e Successivo con Avanti veloce e Indietro veloce. È richiesto un riavvio dell'app.";
+
+"RED_PROGRESS_BAR" = "Barra di avanzamento rossa";
+"RED_PROGRESS_BAR_DESC" = "Ripristina la barra di avanzamento rossa. È richiesto il riavvio dell'app.";
+
+"HIDE_HOVER_CARD" = "Nascondi i riquadri in sovrimpressione a fine video (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Nasconde i riquadri (miniature) a fine video proposti dall'autore.";
+
+"HIDE_RIGHT_PANEL" = "Nascondi il pannello di destra in modalità a schermo intero";
+"HIDE_RIGHT_PANEL_DESC" = "È richiesto un riavvio dell'app.";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "💥 Opzioni Sovrimpressione (Overlay) Shorts";
+
+"HIDE_SUPER_THANKS" = "Nascondi 'Buy Super Thanks'";
+"HIDE_SUPER_THANKS_DESC" = "Nascondi il banner 'Buy Super Thanks' dagli Shorts.";
+
+"HIDE_SUBCRIPTIONS" = "Hide subscriptions button";
+"HIDE_SUBCRIPTIONS_DESC" = "";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disabilita il resume dagli Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "Se chiudi YouTube mentre guardi uno Short, gli Short non verranno riprodotti automaticamente la prossima volta che avvii YouTube.";
+
+// Miscellaneous
+"MISCELLANEOUS" = "🔎 Varie";
+
+"HIDE_UYOU" = "Hide uYou tab";
+"HIDE_ISPONSORBLOCK" = "Hide iSponsorBlock button";
+
+"CAST_CONFIRM" = "Avviso di conferma prima della condivisione su TV (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Mostra un avviso di conferma prima della condivisione per evitar e di irrompere accidentalmente sulla TV.";
+"CASTING" = "Condivisione su TV";
+"MSG_ARE_YOU_SURE" = "Sei sicuro di voler avviare la condivisione?";
+"MSG_YES" = "Sì";
+"MSG_CANCEL" = "Annulla";
+
+"DISABLE_HINTS" = "Disabilita i suggerimenti";
+"DISABLE_HINTS_DESC" = "Disabilita i suggerimenti sulle funzionalità di YouTube che di solito vengono visualizzati quando l'app viene appena installata.";
+
+"ENABLE_YT_STARTUP_ANIMATION" = "Abilita YouTube startup animazione";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
+
+"HIDE_CHIP_BAR" = "Nascondi la barra superiore";
+"HIDE_CHIP_BAR_DESC" = "Nascondi la barra superiore nella Home (Tendenze, Musica, Giochi...) e Iscrizioni (Tutti i video, Continua a guardare...). È richiesto il riavvio dell'app.";
+
+"HIDE_PLAY_NEXT_IN_QUEUE" = "Hide \"Play next in queue\"";
+"HIDE_PLAY_NEXT_IN_QUEUE_DESC" = "";
+
+"IPHONE_LAYOUT" = "iPhone Layout";
+"IPHONE_LAYOUT_DESC" = "Seleziona per usare il Layout Iphone. È richiesto il riavvio dell'app.";
+
+"NEW_MINIPLAYER_STYLE" = "Nuovo stile per la barra del miniplayer (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "È richiesto un riavvio dell'app.";
+
+"YT_RE_EXPLORE" = "Sostituisci il tab Shorts con il tab Esplora (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "È richiesto un riavvio dell'app.";
+
+"ENABLE_FLEX" = "Abilita FLEX";
+"ENABLE_FLEX_DESC" = "Abilita FLEX per il debugging (sconsigliato). Lascialo disabilitato se non sai cosa stai facendo.";
+
+"FIX_GOOGLE_SIGNIN" = "Ripara Google Sign in (solo per utenti TrollStore)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Attiva questa opzione solo quando non puoi accedere al tuo account Google e l'app è stata installata attraverso TrollStore. Se puoi accedere normalmente, tienila disabilitata. È richiesto un riavvio dell'app.";

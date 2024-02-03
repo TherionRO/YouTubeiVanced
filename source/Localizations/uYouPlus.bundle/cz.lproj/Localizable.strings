@@ -1,0 +1,137 @@
+// About
+"ABOUT" = "About";
+
+"VERSION" = "Version";
+"VERSION_CHECK" = "Tap to check for updates!";
+
+"REPORT_AN_ISSUE" = "Report an issue";
+"ADD_TITLE" = "Add your title here...";
+
+"QUIT_YOUTUBE" = "Quit YouTube";
+
+"RESTART_YOUTUBE" = "Restart YouTube to apply changes";
+
+// App appearance
+"APP_THEME" = "🎨 App appearance";
+"THEME_OPTIONS" = "Theme Options";
+
+"DARK_THEME" = "Dark theme";
+
+"DEFAULT_THEME" = "Default";
+"DEFAULT_THEME_DESC" = "";
+
+"OLD_DARK_THEME" = "Lighter grey";
+"OLD_DARK_THEME_DESC" = "YouTube's old dark theme";
+
+"OLED_DARK_THEME" = "Tmavý OLED režim (Experimentální)";
+"OLED_DARK_THEME_2" = "Tmavý OLED režim (Experimentální)";
+"OLED_DARK_THEME_DESC" = "Mohou se vyskytnout chyby. Je potřeba restart aplikace.";
+
+"OLED_KEYBOARD" = "OLED Klávesnice (Experimentální)";
+"OLED_KEYBOARD_DESC" = "Mohou se vyskytnout chyby. Je potřeba restart aplikace.";
+
+// Video player options
+"VIDEO_PLAYER_OPTIONS" = "⏯️ Video player options";
+
+"SLIDE_TO_SEEK" = "Enable Slide to seek";
+"SLIDE_TO_SEEK_DESC" = "Bring back the Slide to seek gesture.";
+
+"DISABLE_DOUBLE_TAP_TO_SEEK" = "Disable double tap to seek";
+"DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
+
+"SNAP_TO_CHAPTER" = "Disable snap to chapter";
+"SNAP_TO_CHAPTER_DESC" = "Disables auto snap to chapter when seeking through videos";
+
+"PINCH_TO_ZOOM" = "Disable pinch to zoom";
+"PINCH_TO_ZOOM_DESC" = "";
+
+"YT_MINIPLAYER" = "Povolit Minipřehrávač pro všechna videa";
+"YT_MINIPLAYER_DESC" = "Například u videa pro děti";
+
+"STOCK_VOLUME_HUD" = "Use stock iOS volume HUD";
+"STOCK_VOLUME_HUD_DESC" = "";
+
+// Video controls overlay options
+"VIDEO_CONTROLS_OVERLAY_OPTIONS" = "📹 Video Controls Overlay Options";
+
+"HIDE_AUTOPLAY_SWITCH" = "Skrýt přepínač automatického přehrávání";
+"HIDE_AUTOPLAY_SWITCH_DESC" = "Skryje přepínač automatického přehrávání v překrytí ovládání videa.";
+
+"HIDE_SUBTITLES_BUTTON" = "Skrýt tlačítko titulky";
+"HIDE_SUBTITLES_BUTTON_DESC" = "Skryje tlačítko titulky v překrytí ovládání videa.";
+
+"HIDE_HUD_MESSAGES" = "Skrýt vyskakující zprávy";
+"HIDE_HUD_MESSAGES_DESC" = "Příklad: Titulky zapnuty/vypnuty, Smyčka videa zapnuta,...";
+
+"HIDE_PAID_PROMOTION_CARDS" = "Hide paid promotion banner";
+"HIDE_PAID_PROMOTION_CARDS_DESC" = "";
+
+"HIDE_CHANNEL_WATERMARK" = "Hide channel watermark";
+"HIDE_CHANNEL_WATERMARK_DESC" = "";
+
+"HIDE_PREVIOUS_AND_NEXT_BUTTON" = "Skrýt tlačítka předchozí a následující";
+"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC" = "Skryje tlačítka předchozí a následující v překrytí ovládání videa.";
+
+"REPLACE_PREVIOUS_NEXT_BUTTON" = "Nahradit předchozí a další tlačítko";
+"REPLACE_PREVIOUS_NEXT_BUTTON_DESC" = "Nahradit předchozí a následující tlačítko tlačítkem Přetočit vpřed a vzad. Je vyžadován restart aplikace.";
+
+"RED_PROGRESS_BAR" = "Red progress bar";
+"RED_PROGRESS_BAR_DESC" = "";
+
+"HIDE_HOVER_CARD" = "Skrýt karty na konci videa (YTNoHoverCards)";
+"HIDE_HOVER_CARD_DESC" = "Skryje náhledy jiných videjí na konci videa.";
+
+"HIDE_RIGHT_PANEL" = "Hide engagement panels in full screen";
+"HIDE_RIGHT_PANEL_DESC" = "Hides right panels (e.g., comments, live chat, etc.) in landscape";
+
+// Shorts controls overlay options
+"SHORTS_CONTROLS_OVERLAY_OPTIONS" = "💥 Shorts controls overlay options";
+
+"HIDE_SUPER_THANKS" = "Hide \"Buy Super Thanks\" banner";
+"HIDE_SUPER_THANKS_DESC" = "";
+
+"HIDE_SUBCRIPTIONS" = "Hide subscriptions button";
+"HIDE_SUBCRIPTIONS_DESC" = "";
+
+"DISABLE_RESUME_TO_SHORTS" = "Disable resume to Shorts";
+"DISABLE_RESUME_TO_SHORTS_DESC" = "If you close YouTube while watching Shorts, this prevents it from automatically resuming the next time you reopen the app";
+
+// Miscellaneous
+"MISCELLANEOUS" = "🔎 Miscellaneous";
+
+"HIDE_UYOU" = "Hide uYou tab";
+"HIDE_ISPONSORBLOCK" = "Hide iSponsorBlock button";
+
+"CAST_CONFIRM" = "Zobrazit potvrzení před začátkem sdílení obrazu (YTCastConfirm)";
+"CAST_CONFIRM_DESC" = "Zobrazí potvrzení aby se zamezilo nechtěnému sdílení do televize.";
+"CASTING" = "Sdílení obrazu";
+"MSG_ARE_YOU_SURE" = "Opravdu chcete začít sdílet obraz?";
+"MSG_YES" = "Ano";
+"MSG_CANCEL" = "Zrušit";
+
+"DISABLE_HINTS" = "Disable hints";
+"DISABLE_HINTS_DESC" = "Disables YouTube feature hints that are displayed when the app is newly installed";
+
+"ENABLE_YT_STARTUP_ANIMATION" = "Enable YouTube startup animation";
+"ENABLE_YT_STARTUP_ANIMATION_DESC" = "";
+
+"HIDE_CHIP_BAR" = "Hide upper bar";
+"HIDE_CHIP_BAR_DESC" = "Hides the upper bar in home and subscription feeds (e.g., All videos, Continue watching, etc.)";
+
+"HIDE_PLAY_NEXT_IN_QUEUE" = "Hide \"Play next in queue\"";
+"HIDE_PLAY_NEXT_IN_QUEUE_DESC" = "";
+
+"IPHONE_LAYOUT" = "Force iPhone layout";
+"IPHONE_LAYOUT_DESC" = "";
+
+"NEW_MINIPLAYER_STYLE" = "Nový styl minipřehrávače (BigYTMiniPlayer)";
+"NEW_MINIPLAYER_STYLE_DESC" = "Je potřeba restart aplikace.";
+
+"YT_RE_EXPLORE" = "Nahradit záložku Shorts tab záložkou Explore (YTReExplore)";
+"YT_RE_EXPLORE_DESC" = "Je potřeba restart aplikace.";
+
+"ENABLE_FLEX" = "Enable FLEX";
+"ENABLE_FLEX_DESC" = "Enables FLEX for debugging";
+
+"FIX_GOOGLE_SIGNIN" = "Opravit přihlášení přes Google (pouze pro uživatele TrollStore)";
+"FIX_GOOGLE_SIGNIN_DESC" = "Tuto možnost zapněte pouze v případě, že se nemůžete přihlásit pomocí svého účtu Google a aplikace byla nainstalována prostřednictvím TrollStore. Pokud se můžete normálně přihlásit, ponechte ji deaktivovanou. Je vyžadován restart aplikace.";

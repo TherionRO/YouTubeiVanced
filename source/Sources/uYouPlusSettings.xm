@@ -73,7 +73,7 @@ extern NSBundle *uYouPlusBundle();
     [sectionItems addObject:bug];
 
     YTSettingsSectionItem *exitYT = [%c(YTSettingsSectionItem)
-        itemWithTitle:LOC(@"FORCE_QUIT_YOUTUBE")
+        itemWithTitle:LOC(@"Force Close YouTube")
         titleDescription:nil
         accessibilityIdentifier:nil
         detailTextBlock:nil
@@ -90,7 +90,7 @@ extern NSBundle *uYouPlusBundle();
     SECTION_HEADER(LOC(@"APP_THEME"));
 
     YTSettingsSectionItem *themeGroup = [YTSettingsSectionItemClass
-        itemWithTitle:LOC(@"THEME")
+        itemWithTitle:LOC(@"Theme")
         accessibilityIdentifier:nil
         detailTextBlock:^NSString *() {
             switch (APP_THEME_IDX) {

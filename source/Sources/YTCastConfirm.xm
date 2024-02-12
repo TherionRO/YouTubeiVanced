@@ -1,4 +1,4 @@
-#import "../Tweaks/YouTubeHeader/YTAlertView.h"
+#import <YouTubeHeader/YTAlertView.h>
 #import "uYouPlus.h"
 
 extern NSBundle *uYouPlusBundle();

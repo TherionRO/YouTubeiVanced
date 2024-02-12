@@ -87,10 +87,10 @@ extern NSBundle *uYouPlusBundle();
     [sectionItems addObject:exitYT];
 
     # pragma mark - App theme
-    SECTION_HEADER(LOC(@"APP_THEME"));
+    SECTION_HEADER(LOC(@"Theme"));
 
     YTSettingsSectionItem *themeGroup = [YTSettingsSectionItemClass
-        itemWithTitle:LOC(@"Theme")
+        itemWithTitle:LOC(@"DARK_THEME")
         accessibilityIdentifier:nil
         detailTextBlock:^NSString *() {
             switch (APP_THEME_IDX) {

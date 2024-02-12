@@ -1,7 +1,7 @@
-#import "../Tweaks/YouTubeHeader/YTIPivotBarRenderer.h"
-#import "../Tweaks/YouTubeHeader/YTIGuideResponse.h"
-#import "../Tweaks/YouTubeHeader/YTIGuideResponseSupportedRenderers.h"
-#import "../Tweaks/YouTubeHeader/YTIBrowseRequest.h"
+#import <YouTubeHeader/YTIPivotBarRenderer.h>
+#import <YouTubeHeader/YTIGuideResponse.h>
+#import <YouTubeHeader/YTIGuideResponseSupportedRenderers.h>
+#import <YouTubeHeader/YTIBrowseRequest.h>
 #import "uYouPlus.h"
 
 %group YTReExplore // https://github.com/PoomSmart/YTReExplore/

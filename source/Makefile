@@ -6,7 +6,7 @@ export libFLEX_ARCHS = arm64
 export Alderis_XCODEOPTS = LD_DYLIB_INSTALL_NAME=@rpath/Alderis.framework/Alderis
 export Alderis_XCODEFLAGS = DYLIB_INSTALL_NAME_BASE=/Library/Frameworks BUILD_LIBRARY_FOR_DISTRIBUTION=YES ARCHS="$(ARCHS)"
 export libcolorpicker_LDFLAGS = -F$(TARGET_PRIVATE_FRAMEWORK_PATH) -install_name @rpath/libcolorpicker.dylib
-export ADDITIONAL_CFLAGS = -I$(THEOS_PROJECT_DIR)/Tweaks/RemoteLog
+export ADDITIONAL_CFLAGS = -I$(THEOS_PROJECT_DIR)/Tweaks/RemoteLog -I$(THEOS_PROJECT_DIR)/Tweaks
 
 ifneq ($(JAILBROKEN),1)
 export DEBUGFLAG = -ggdb -Wno-unused-command-line-argument -L$(THEOS_OBJ_DIR) -F$(_THEOS_LOCAL_DATA_DIR)/$(THEOS_OBJ_DIR_NAME)/install/Library/Frameworks
@@ -14,12 +14,12 @@ MODULES = jailed
 endif
 
 ifndef YOUTUBE_VERSION
-YOUTUBE_VERSION = 19.05.3
+YOUTUBE_VERSION = 19.06.2
 endif
 ifndef UYOU_VERSION
-UYOU_VERSION = 3.0.1-ivanced
+UYOU_VERSION = 3.0.1
 endif
-PACKAGE_VERSION = $(YOUTUBE_VERSION)-$(UYOU_VERSION)
+PACKAGE_VERSION = $(YOUTUBE_VERSION)-$(UYOU_VERSION)-ivanced
 
 INSTALL_TARGET_PROCESSES = YouTube
 TWEAK_NAME = uYouPlus

@@ -1,9 +1,10 @@
 #import <YouTubeHeader/YTCommonColorPalette.h>
 #import <YouTubeHeader/ASCollectionView.h>
+#import <YouTubeHeader/_ASDisplayView.h>
 #import "uYouPlus.h"
 
-@interface YCHLiveChatView : UIView
-@end
+// @interface YCHLiveChatView : UIView
+// @end
 
 @interface YTFullscreenEngagementOverlayView : UIView
 @end
@@ -11,8 +12,8 @@
 @interface YTRelatedVideosView : UIView
 @end
 
-@interface ELMView : UIView
-@end
+// @interface ELMView : UIView
+// @end
 
 @interface ASWAppSwitcherCollectionViewCell : UIView
 @end
@@ -26,11 +27,8 @@
 @interface UIKeyboardDockView : UIView
 @end
 
-@interface _ASDisplayView : UIView
-@end
-
-@interface YTCommentDetailHeaderCell : UIView
-@end
+// @interface YTCommentDetailHeaderCell : UIView
+// @end
 
 @interface SponsorBlockSettingsController : UITableViewController
 @end
@@ -42,6 +40,9 @@
 @end
 
 @interface UIPredictionViewController : UIViewController
+@end
+
+@interface TUIEmojiSearchView : UIView
 @end
 
 @interface FRPreferences : UITableViewController

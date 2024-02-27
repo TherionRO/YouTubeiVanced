@@ -5,7 +5,7 @@
 "VERSION_CHECK" = "Chạm để kiểm tra bản cập nhật!";
 
 "REPORT_AN_ISSUE" = "Báo lỗi";
-"ADD_TITLE" = "Add your title here...";
+"ADD_TITLE" = "Thêm tiêu đề lỗi ở đây...";
 
 "QUIT_YOUTUBE" = "Đóng YouTube";
 
@@ -47,6 +47,15 @@
 
 "YT_MINIPLAYER" = "Cho phép sử dụng trình phát thu nhỏ với mọi video";
 "YT_MINIPLAYER_DESC" = "Ví dụ: Video cho trẻ em.";
+
+"HIDE_REMIX_BUTTON" = "Ẩn nút Phối lại";
+"HIDE_REMIX_BUTTON_DESC" = "";
+
+"HIDE_CLIP_BUTTON" = "Ẩn nút Tạo đoạn video";
+"HIDE_CLIP_BUTTON_DESC" = "";
+
+"HIDE_DOWNLOAD_BUTTON" = "Ẩn nút Tải xuống";
+"HIDE_DOWNLOAD_BUTTON_DESC" = "";
 
 "STOCK_VOLUME_HUD" = "Sử dụng thanh âm lượng mặc định của iOS";
 "STOCK_VOLUME_HUD_DESC" = "";
@@ -100,7 +109,7 @@
 "MISCELLANEOUS" = "🔎 Cài đặt khác";
 
 "HIDE_UYOU" = "Hide uYou tab";
-"HIDE_ISPONSORBLOCK" = "Hide iSponsorBlock button";
+"HIDE_ISPONSORBLOCK" = "Ẩn nút iSponsorBlock trên thanh menu";
 
 "CAST_CONFIRM" = "Xác nhận trước khi cast video (YTCastConfirm)";
 "CAST_CONFIRM_DESC" = "Hiện hộp thoại xác nhận trước khi cast video sang TV để tránh vô tình chiếm quyền điều khiển TV.";

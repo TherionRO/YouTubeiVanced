@@ -48,6 +48,15 @@
 "YT_MINIPLAYER" = "Tüm YouTube videoları için Mini Oynatıcıyı etkinleştir";
 "YT_MINIPLAYER_DESC" = "Örneğin çocuk videoları.";
 
+"HIDE_REMIX_BUTTON" = "Hides Remix button";
+"HIDE_REMIX_BUTTON_DESC" = "";
+
+"HIDE_CLIP_BUTTON" = "Hide Clip button";
+"HIDE_CLIP_BUTTON_DESC" = "";
+
+"HIDE_DOWNLOAD_BUTTON" = "Hide Download button";
+"HIDE_DOWNLOAD_BUTTON_DESC" = "";
+
 "STOCK_VOLUME_HUD" = "Mevcut iOS baş yukarı göstergesi(HUD) alanını kullan";
 "STOCK_VOLUME_HUD_DESC" = "";
 

@@ -48,6 +48,15 @@
 "YT_MINIPLAYER" = "אפשר את הנגן הקטן עבור כל הסרטונים ב-YouTube";
 "YT_MINIPLAYER_DESC" = "סרטוני ילדים לדוגמה.";
 
+"HIDE_REMIX_BUTTON" = "Hides Remix button";
+"HIDE_REMIX_BUTTON_DESC" = "";
+
+"HIDE_CLIP_BUTTON" = "Hide Clip button";
+"HIDE_CLIP_BUTTON_DESC" = "";
+
+"HIDE_DOWNLOAD_BUTTON" = "Hide Download button";
+"HIDE_DOWNLOAD_BUTTON_DESC" = "";
+
 "STOCK_VOLUME_HUD" = "Use stock iOS volume HUD";
 "STOCK_VOLUME_HUD_DESC" = "";
 

@@ -48,6 +48,15 @@
 "YT_MINIPLAYER" = "為所有 YouTube 影片啟用迷你播放器";
 "YT_MINIPLAYER_DESC" = "例如兒童影片";
 
+"HIDE_REMIX_BUTTON" = "Hides Remix button";
+"HIDE_REMIX_BUTTON_DESC" = "";
+
+"HIDE_CLIP_BUTTON" = "Hide Clip button";
+"HIDE_CLIP_BUTTON_DESC" = "";
+
+"HIDE_DOWNLOAD_BUTTON" = "Hide Download button";
+"HIDE_DOWNLOAD_BUTTON_DESC" = "";
+
 "STOCK_VOLUME_HUD" = "使用 iOS 內建的音量 HUD";
 "STOCK_VOLUME_HUD_DESC" = "";
 

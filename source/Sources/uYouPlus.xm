@@ -26,13 +26,6 @@ NSBundle *tweakBundle = uYouPlusBundle();
 }
 %end
 
-// Disable double tap to seek
-%hook YTDoubleTapToSeekController
-- (void)enableDoubleTapToSeek:(BOOL)arg1 {
-    return IS_ENABLED(@"doubleTapToSeek_disabled") ? %orig(NO) : %orig;
-}
-%end
-
 // Disable snap to chapter
 %hook YTSegmentableInlinePlayerBarView
 - (void)didMoveToWindow {
@@ -50,11 +43,68 @@ NSBundle *tweakBundle = uYouPlusBundle();
 }
 %end
 
+// Hide useless buttons under the video player by @PoomSmart
+static BOOL findCell(ASNodeController *nodeController, NSArray <NSString *> *identifiers) {
+    for (id child in [nodeController children]) {
+        if ([child isKindOfClass:%c(ELMNodeController)]) {
+            NSArray <ELMComponent *> *elmChildren = [(ELMNodeController *)child children];
+            for (ELMComponent *elmChild in elmChildren) {
+                for (NSString *identifier in identifiers) {
+                    if ([[elmChild description] containsString:identifier])
+                        return YES;
+                }
+            }
+        }
+
+        if ([child isKindOfClass:%c(ASNodeController)]) {
+            ASDisplayNode *childNode = ((ASNodeController *)child).node; // ELMContainerNode
+            NSArray *yogaChildren = childNode.yogaChildren;
+            for (ASDisplayNode *displayNode in yogaChildren) {
+                if ([identifiers containsObject:displayNode.accessibilityIdentifier])
+                    return YES;
+            }
+
+            return findCell(child, identifiers);
+        }
+
+        return NO;
+    }
+    return NO;
+}
+
+%hook ASCollectionView
+
+- (CGSize)sizeForElement:(ASCollectionElement *)element {
+    if ([self.accessibilityIdentifier isEqualToString:@"id.video.scrollable_action_bar"]) {
+        ASCellNode *node = [element node];
+        ASNodeController *nodeController = [node controller];
+        if (IS_ENABLED(@"hideRemixButton_enabled") && findCell(nodeController, @[@"id.video.remix.button"])) {
+            return CGSizeZero;
+        }
+        
+        if (IS_ENABLED(@"hideClipButton_enabled") && findCell(nodeController, @[@"clip_button.eml"])) {
+            return CGSizeZero;
+        }
+        
+        if (IS_ENABLED(@"hideDownloadButton_enabled") && findCell(nodeController, @[@"id.ui.add_to.offline.button"])) {
+            return CGSizeZero;
+        }
+    }
+    return %orig;
+}
+
+%end
+
 // Enable miniplayer for all videos
 // See YTMiniPlayerEnabler.x
 
 // Use stock iOS volume HUD
-// See YTStockVolumeHUD.xm
+// Use YTColdConfig's method instead of YTStockVolumeHUD.xm, see https://x.com/PoomSmart/status/1756904290445332653
+%hook YTColdConfig
+- (BOOL)iosUseSystemVolumeControlInFullscreen {
+    return IS_ENABLED(@"stockVolumeHUD_enabled") ? YES : %orig;
+}
+%end
 
 # pragma mark - Video control overlay options
 
@@ -91,22 +141,6 @@ NSBundle *tweakBundle = uYouPlusBundle();
 - (BOOL)iosEnableFeaturedChannelWatermarkOverlayFix {
     return IS_ENABLED(@"hideChannelWatermark_enabled") ? NO : %orig;
 }
-%end
-
-// Hide next and previous buttons
-%group gHidePreviousAndNextButton
-%hook YTColdConfig
-- (BOOL)removeNextPaddleForSingletonVideos { return YES; }
-- (BOOL)removePreviousPaddleForSingletonVideos { return YES; }
-%end
-%end
-
-// Replace next and previous buttons with fast forward and rewind
-%group gReplacePreviousAndNextButton
-%hook YTColdConfig
-- (BOOL)replaceNextPaddleWithFastForwardButtonForSingletonVods { return YES; }
-- (BOOL)replacePreviousPaddleWithRewindButtonForSingletonVods { return YES; }
-%end
 %end
 
 // Bring back the red progress bar - Broken?!
@@ -151,26 +185,18 @@ NSBundle *tweakBundle = uYouPlusBundle();
 }
 %end
 
-// Disable resume to Shorts
-%hook YTShortsStartupCoordinator
-- (id)evaluateResumeToShorts { 
-    return IS_ENABLED(@"disableResumeToShorts") ? nil : %orig;
-}
-%end
-
 # pragma mark - Miscellaneous
 
 // Hide iSponsorBlock
 %hook YTRightNavigationButtons
 - (void)didMoveToWindow {
     %orig;
-    if (IS_ENABLED(@"hideiSponsorBlockButton_enabled"))
+    if (IS_ENABLED(@"hideiSponsorBlockButton_enabled")) {
         self.sponsorBlockButton.hidden = YES;
+        self.sponsorBlockButton.frame = CGRectZero;
+    }
 }
 %end
-
-// YTCastConfirm
-// See YTCastConfirm.xm
 
 // Disable hints - https://github.com/LillieH001/YouTube-Reborn/blob/v4/
 %group gDisableHints
@@ -322,12 +348,6 @@ NSBundle *tweakBundle = uYouPlusBundle();
     // dlopen([[NSString stringWithFormat:@"%@/Frameworks/uYou.dylib", [[NSBundle mainBundle] bundlePath]] UTF8String], RTLD_LAZY);
 
     %init;
-    if (IS_ENABLED(@"hidePreviousAndNextButton_enabled")) {
-        %init(gHidePreviousAndNextButton);
-    }
-    if (IS_ENABLED(@"replacePreviousAndNextButton_enabled")) {
-        %init(gReplacePreviousAndNextButton);
-    }
     if (IS_ENABLED(@"disableHints_enabled")) {
         %init(gDisableHints);
     }

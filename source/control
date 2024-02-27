@@ -6,5 +6,5 @@ Maintainer: qnblackcat
 Author: qnblackcat
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), com.miro.uyou
-Conflicts: com.level3tjg.ytminiplayerenabler, com.level3tjg.ytnohovercards, com.devvix.ytcastconfirm, com.ps.ytclassicvideoquality, com.ps.noytpremium, com.ps.ytnopaidpromo, com.ps.ytreexplore, com.galacticdev.bigytminiplayer, me.foxster.donteatmycontent, com.lilacvibes.ytstockvolumehud, net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, h.ryan.youtubereborn, weeb.lillie.enhancerforyoutubepremium, com.ps.uyoucompat, com.ichitaso.uyouplus
+Conflicts: com.level3tjg.ytminiplayerenabler, com.level3tjg.ytnohovercards, com.ps.noytpremium, com.ps.ytnopaidpromo, com.ps.ytreexplore, com.galacticdev.bigytminiplayer, com.lilacvibes.ytstockvolumehud, net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, h.ryan.youtubereborn, weeb.lillie.enhancerforyoutubepremium, com.ps.uyoucompat, com.ichitaso.uyouplus
 Recommends: com.ps.youmute, com.ps.youpip, com.ps.youquality, com.ps.ytabconfig, com.ps.ytvideooverlay, libflex, weeb.lillie.youtubedislikesreturn

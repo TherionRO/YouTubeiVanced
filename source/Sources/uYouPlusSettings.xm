@@ -90,7 +90,7 @@ extern NSBundle *uYouPlusBundle();
     SECTION_HEADER(LOC(@"Theme"));
 
     YTSettingsSectionItem *themeGroup = [YTSettingsSectionItemClass
-        itemWithTitle:LOC(@"DARK_THEME")
+        itemWithTitle:LOC(@"YouTube Theme")
         accessibilityIdentifier:nil
         detailTextBlock:^NSString *() {
             switch (APP_THEME_IDX) {
@@ -164,10 +164,12 @@ extern NSBundle *uYouPlusBundle();
     SECTION_HEADER(LOC(@"VIDEO_PLAYER_OPTIONS"));
 
     SWITCH_ITEM2(LOC(@"SLIDE_TO_SEEK"), LOC(@"SLIDE_TO_SEEK_DESC"), @"slideToSeek_enabled");
-    SWITCH_ITEM(LOC(@"DISABLE_DOUBLE_TAP_TO_SEEK"), LOC(@"DISABLE_DOUBLE_TAP_TO_SEEK_DESC"), @"doubleTapToSeek_disabled");
     SWITCH_ITEM2(LOC(@"SNAP_TO_CHAPTER"), LOC(@"SNAP_TO_CHAPTER_DESC"), @"snapToChapter_enabled");
     SWITCH_ITEM2(LOC(@"PINCH_TO_ZOOM"), LOC(@"PINCH_TO_ZOOM_DESC"), @"pinchToZoom_enabled");
     SWITCH_ITEM(LOC(@"YT_MINIPLAYER"), LOC(@"YT_MINIPLAYER_DESC"), @"ytMiniPlayer_enabled");
+    SWITCH_ITEM(LOC(@"HIDE_REMIX_BUTTON"), LOC(@"HIDE_REMIX_BUTTON_DESC"), @"hideRemixButton_enabled");
+    SWITCH_ITEM(LOC(@"HIDE_CLIP_BUTTON"), LOC(@"HIDE_CLIP_BUTTON_DESC"), @"hideClipButton_enabled");
+    SWITCH_ITEM(LOC(@"HIDE_DOWNLOAD_BUTTON"), LOC(@"HIDE_DOWNLOAD_BUTTON_DESC"), @"hideDownloadButton_enabled");
     SWITCH_ITEM(LOC(@"STOCK_VOLUME_HUD"), LOC(@"STOCK_VOLUME_HUD_DESC"), @"stockVolumeHUD_enabled");
 
     # pragma mark - Video controls overlay options
@@ -178,8 +180,6 @@ extern NSBundle *uYouPlusBundle();
     SWITCH_ITEM(LOC(@"HIDE_HUD_MESSAGES"), LOC(@"HIDE_HUD_MESSAGES_DESC"), @"hideHUD_enabled");
     SWITCH_ITEM(LOC(@"HIDE_PAID_PROMOTION_CARDS"), LOC(@"HIDE_PAID_PROMOTION_CARDS_DESC"), @"hidePaidPromotionCard_enabled");
     SWITCH_ITEM2(LOC(@"HIDE_CHANNEL_WATERMARK"), LOC(@"HIDE_CHANNEL_WATERMARK_DESC"), @"hideChannelWatermark_enabled");
-    SWITCH_ITEM(LOC(@"HIDE_PREVIOUS_AND_NEXT_BUTTON"), LOC(@"HIDE_PREVIOUS_AND_NEXT_BUTTON_DESC"), @"hidePreviousAndNextButton_enabled");
-    SWITCH_ITEM2(LOC(@"REPLACE_PREVIOUS_NEXT_BUTTON"), LOC(@"REPLACE_PREVIOUS_NEXT_BUTTON_DESC"), @"replacePreviousAndNextButton_enabled");
     SWITCH_ITEM2(LOC(@"RED_PROGRESS_BAR"), LOC(@"RED_PROGRESS_BAR_DESC"), @"redProgressBar_enabled");
     SWITCH_ITEM(LOC(@"HIDE_HOVER_CARD"), LOC(@"HIDE_HOVER_CARD_DESC"), @"hideHoverCards_enabled");
     SWITCH_ITEM2(LOC(@"HIDE_RIGHT_PANEL"), LOC(@"HIDE_RIGHT_PANEL_DESC"), @"hideRightPanel_enabled");
@@ -189,16 +189,13 @@ extern NSBundle *uYouPlusBundle();
 
     SWITCH_ITEM(LOC(@"HIDE_SUPER_THANKS"), LOC(@"HIDE_SUPER_THANKS_DESC"), @"hideBuySuperThanks_enabled");
     SWITCH_ITEM(LOC(@"HIDE_SUBCRIPTIONS"), LOC(@"HIDE_SUBCRIPTIONS_DESC"), @"hideSubcriptions_enabled");
-    SWITCH_ITEM(LOC(@"DISABLE_RESUME_TO_SHORTS"), LOC(@"DISABLE_RESUME_TO_SHORTS_DESC"), @"disableResumeToShorts");
 
     # pragma mark - Miscellaneous
     SECTION_HEADER(LOC(@"MISCELLANEOUS"));
 
-    // SWITCH_ITEM2(LOC(@"HIDE_UYOU"), nil, @"hideUYouTab_enabled"); // We stay on 19.02.1 until MiRO92 update uYou?
-    SWITCH_ITEM2(LOC(@"HIDE_ISPONSORBLOCK"), nil, @"hideiSponsorBlockButton_enabled");
-    SWITCH_ITEM(LOC(@"CAST_CONFIRM"), LOC(@"CAST_CONFIRM_DESC"), @"castConfirm_enabled");
+    SWITCH_ITEM(LOC(@"HIDE_ISPONSORBLOCK"), nil, @"hideiSponsorBlockButton_enabled");
     SWITCH_ITEM(LOC(@"DISABLE_HINTS"), LOC(@"DISABLE_HINTS_DESC"), @"disableHints_enabled");
-    SWITCH_ITEM(LOC(@"ENABLE_YT_STARTUP_ANIMATION"), LOC(@"ENABLE_YT_STARTUP_ANIMATION_DESC"), @"ytStartupAnimation_enabled");
+    SWITCH_ITEM2(LOC(@"ENABLE_YT_STARTUP_ANIMATION"), LOC(@"ENABLE_YT_STARTUP_ANIMATION_DESC"), @"ytStartupAnimation_enabled");
     SWITCH_ITEM(LOC(@"HIDE_CHIP_BAR"), LOC(@"HIDE_CHIP_BAR_DESC"), @"hideChipBar_enabled");
     SWITCH_ITEM(LOC(@"HIDE_PLAY_NEXT_IN_QUEUE"), LOC(@"HIDE_PLAY_NEXT_IN_QUEUE_DESC"), @"hidePlayNextInQueue_enabled");
     SWITCH_ITEM2(LOC(@"IPHONE_LAYOUT"), LOC(@"IPHONE_LAYOUT_DESC"), @"iPhoneLayout_enabled");

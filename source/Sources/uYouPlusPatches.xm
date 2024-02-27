@@ -62,36 +62,36 @@
 %end
 
 // iOS 16 uYou crash fix - @level3tjg: https://github.com/qnblackcat/uYouPlus/pull/224
-%group iOS16
-%hook OBPrivacyLinkButton
-%new
-- (instancetype)initWithCaption:(NSString *)caption
-                     buttonText:(NSString *)buttonText
-                          image:(UIImage *)image
-                      imageSize:(CGSize)imageSize
-                   useLargeIcon:(BOOL)useLargeIcon {
-  return [self initWithCaption:caption
-                    buttonText:buttonText
-                         image:image
-                     imageSize:imageSize
-                  useLargeIcon:useLargeIcon
-               displayLanguage:[NSLocale currentLocale].languageCode];
-}
-%end
-%end
+// %group iOS16
+// %hook OBPrivacyLinkButton
+// %new
+// - (instancetype)initWithCaption:(NSString *)caption
+//                      buttonText:(NSString *)buttonText
+//                           image:(UIImage *)image
+//                       imageSize:(CGSize)imageSize
+//                    useLargeIcon:(BOOL)useLargeIcon {
+//   return [self initWithCaption:caption
+//                     buttonText:buttonText
+//                          image:image
+//                      imageSize:imageSize
+//                   useLargeIcon:useLargeIcon
+//                displayLanguage:[NSLocale currentLocale].languageCode];
+// }
+// %end
+// %end
 
 // Fix uYou playback speed crashes YT v18.49.3+, see https://github.com/iCrazeiOS/uYouCrashFix
-%hook YTPlayerViewController
-%new
--(float)currentPlaybackRateForVarispeedSwitchController:(id)arg1 {
-	return [[self activeVideo] playbackRate];
-}
+// %hook YTPlayerViewController
+// %new
+// -(float)currentPlaybackRateForVarispeedSwitchController:(id)arg1 {
+// 	return [[self activeVideo] playbackRate];
+// }
 
-%new
--(void)varispeedSwitchController:(id)arg1 didSelectRate:(float)arg2 {
-	[[self activeVideo] setPlaybackRate:arg2];
-}
-%end
+// %new
+// -(void)varispeedSwitchController:(id)arg1 didSelectRate:(float)arg2 {
+// 	[[self activeVideo] setPlaybackRate:arg2];
+// }
+// %end
 
 // Fix streched artwork in uYou's player view - https://github.com/MiRO92/uYou-for-YouTube/issues/287
 %hook ArtworkImageView
@@ -116,8 +116,17 @@
 %end
 
 // Fix uYou's appearance not updating if the app is backgrounded
-DownloadsPagerVC *downloadsPagerVC;
-NSUInteger selectedTabIndex;
+static DownloadsPagerVC *downloadsPagerVC;
+static NSUInteger selectedTabIndex;
+%hook DownloadsPagerVC
+- (id)init {
+    downloadsPagerVC = %orig;
+    return downloadsPagerVC;
+}
+- (void)viewPager:(id)viewPager didChangeTabToIndex:(NSUInteger)arg1 fromTabIndex:(NSUInteger)arg2 {
+    %orig; selectedTabIndex = arg1;
+}
+%end
 static void refreshUYouAppearance() {
     if (!downloadsPagerVC) return;
     // View pager
@@ -156,19 +165,12 @@ static void refreshUYouAppearance() {
         }
     }
 }
-%hook DownloadsPagerVC
-- (instancetype)init {
-    downloadsPagerVC = %orig;
-    return downloadsPagerVC;
-}
-- (void)viewPager:(id)viewPager didChangeTabToIndex:(NSUInteger)arg1 fromTabIndex:(NSUInteger)arg2 {
-    %orig; selectedTabIndex = arg1;
-}
-%end
 %hook UIViewController
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
     %orig;
-    refreshUYouAppearance();
+    dispatch_async(dispatch_get_main_queue(), ^{
+        refreshUYouAppearance();
+    });
 }
 %end
 
@@ -196,9 +198,9 @@ static void refreshUYouAppearance() {
 
 %ctor {
     %init;
-    if (@available(iOS 16, *)) {
-        %init(iOS16);
-    }
+    // if (@available(iOS 16, *)) {
+    //     %init(iOS16);
+    // }
 
     // Disable broken options
     

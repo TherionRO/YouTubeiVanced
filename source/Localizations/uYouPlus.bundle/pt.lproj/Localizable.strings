@@ -48,6 +48,15 @@
 "YT_MINIPLAYER" = "Ative o Miniplayer para todos os vídeos do YouTube";
 "YT_MINIPLAYER_DESC" = "Vídeos infantis, por exemplo.";
 
+"HIDE_REMIX_BUTTON" = "Hides Remix button";
+"HIDE_REMIX_BUTTON_DESC" = "";
+
+"HIDE_CLIP_BUTTON" = "Hide Clip button";
+"HIDE_CLIP_BUTTON_DESC" = "";
+
+"HIDE_DOWNLOAD_BUTTON" = "Hide Download button";
+"HIDE_DOWNLOAD_BUTTON_DESC" = "";
+
 "STOCK_VOLUME_HUD" = "Usar o HUD de volume padrão do iOS";
 "STOCK_VOLUME_HUD_DESC" = "";
 

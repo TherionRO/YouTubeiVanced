@@ -48,6 +48,15 @@
 "YT_MINIPLAYER" = "모든 YouTube 영상에서 미니 플레이어 활성화";
 "YT_MINIPLAYER_DESC" = "유튜브 키즈의 영상 같은 경우.";
 
+"HIDE_REMIX_BUTTON" = "Hides Remix button";
+"HIDE_REMIX_BUTTON_DESC" = "";
+
+"HIDE_CLIP_BUTTON" = "Hide Clip button";
+"HIDE_CLIP_BUTTON_DESC" = "";
+
+"HIDE_DOWNLOAD_BUTTON" = "Hide Download button";
+"HIDE_DOWNLOAD_BUTTON_DESC" = "";
+
 "STOCK_VOLUME_HUD" = "iOS 기본 음량 표시기 사용";
 "STOCK_VOLUME_HUD_DESC" = "";
 

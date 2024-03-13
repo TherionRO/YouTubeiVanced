@@ -11,6 +11,7 @@ Note : iVanced for YouTube is a fork of uYou/uYouPlus based on the latest versio
 Download the iVanced for YouTube .ipa on [AppDB Here]([https://appdb.to/app/cydia/1900001075](https://appdb.to/?name=ivanced&developer_name=TherionRO))
 
 Or download it from Github on [Releases Tab Here](https://github.com/TherionRO/YouTubeiVanced/releases/latest)
+We had to take down the release builds from this repo,you can downlaod iVanced from other mirrors or build it yourself sadly.
 
 Instructions on how to sideload the .ipa and install it on your iPhone are present down below at "How to use iVanced"
 
